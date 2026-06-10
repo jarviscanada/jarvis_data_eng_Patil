@@ -2,7 +2,7 @@
 
 London Gift Shop (LGS) is a UK-based online retailer specializing in unique all-occasion giftware. Despite having a large transaction history dating back to 2009, LGS lacks internal data analytics capability to extract meaningful business insights from their data. They are unable to identify trends, understand customer behavior, or make data-driven decisions to grow revenue.
 
-This project addresses that gap by building a data analytics pipeline that ingests LGS transactional data, stores it in a PostgreSQL data warehouse, and performs exploratory and behavioral analysis using Python. The results help LGS understand sales trends, customer activity, and customer value  enabling their marketing team to design targeted campaigns and improve retention.
+This project addresses that gap by building a data analytics pipeline that ingests LGS transactional data, stores it in a PostgreSQL data warehouse, and performs exploratory and behavioral analysis using Python. The results help LGS understand sales trends, customer activity, and customer value — enabling their marketing team to design targeted campaigns and improve retention.
 
 LGS can use the analytic results to:
 - Identify high-value customers using RFM segmentation and target them with loyalty programs
@@ -25,34 +25,36 @@ The architecture consists of the following components:
 - **Jupyter Notebook (Python):** The analytics environment where data is loaded, cleaned, transformed, and analyzed using Pandas and Matplotlib
 - **Docker Bridge Network (jarvis-net):** Connects the Jupyter and PostgreSQL containers so the notebook can query the warehouse directly using the container hostname
 
+```
 +-------------------------+
 |  LGS Web App            |
 |  (MSSQL OLTP)           |
 +-------------------------+
-|
-| Data Export (SQL dump / XLSX)
-v
+           |
+           | Data Export (SQL dump / XLSX)
+           v
 +-------------------------+
 |  PostgreSQL             |
 |  Data Warehouse         |
 |  (Docker: jarvis-psql)  |
 +-------------------------+
-|
-| pandas.read_sql / read_excel
-v
+           |
+           | pandas.read_sql / read_excel
+           v
 +-------------------------+
 |  Jupyter Notebook       |
 |  (Docker: jupyter)      |
 |  Python, Pandas,        |
 |  Matplotlib             |
 +-------------------------+
-|
-| Analytics Output
-v
+           |
+           | Analytics Output
+           v
 +-------------------------+
 |  Charts, RFM Table,     |
 |  Business Insights      |
 +-------------------------+
+```
 
 ## Data Analytics and Wrangling
 
@@ -72,7 +74,7 @@ The notebook covers the following analyses:
 
 ### How the data helps LGS increase revenue
 
-**1. RFM Segmentation  Targeted Marketing**
+**1. RFM Segmentation — Targeted Marketing**
 By scoring every customer on RFM dimensions, LGS can segment their customer base and take targeted action:
 - Reward Champions and Loyal Customers with VIP offers and early access
 - Send win-back campaigns to At Risk and Hibernating customers
