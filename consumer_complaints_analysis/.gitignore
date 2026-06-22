@@ -1,0 +1,12 @@
+# Data files (too large for GitHub)
+*.csv
+*.zip
+data/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
