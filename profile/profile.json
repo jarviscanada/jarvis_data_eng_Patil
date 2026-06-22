@@ -24,7 +24,7 @@
       "school_name": "Dr. D. Y. Patil University"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_Pati",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_Patil",
   "highlighted_projects": [
     {
       "description": "Built a fully automated end-to-end CI/CD pipeline integrating Jenkins for orchestration, SonarQube for static code analysis, JFrog Artifactory for artifact management, and Docker with Kubernetes for containerized deployment. Instrumented the pipeline with Prometheus and Grafana for build-health monitoring and alerting, demonstrating a production-grade DevOps workflow from commit to deployment.",
