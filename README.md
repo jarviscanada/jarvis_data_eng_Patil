@@ -12,7 +12,7 @@ Data and Machine Learning Engineer with five years of experience building produc
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Pati](https://github.com/jarviscanada/jarvis_data_eng_Patil)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](https://github.com/jarviscanada/jarvis_data_eng_Patil)
 
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Patil/tree/master/linux_sql)]: Designed and implemented a Linux Cluster Monitoring Agent in Bash to collect hardware specs and real-time resource usage from CentOS servers. Provisioned a PostgreSQL database in Docker for persistent storage of node metrics, and automated scheduled collection through crontab. Wrote SQL analytical queries to surface cluster utilization trends and capacity-planning insights, with the full agent and database containerized for reproducible deployment.
