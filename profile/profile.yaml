@@ -2,7 +2,7 @@
 name: "Kaustubh Patil"
 
 # Your GitHub repo root URL
-github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_Pati"
+github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_Patil"
 
 # Introduce yourself (80-120 words)
 summary: "Data and Machine Learning Engineer with five years of experience building production AI/ML platforms across Azure, GCP, and AWS. At Gartner (Talent Neuron), designed Databricks pipelines on Azure processing 33TB of workforce data and serving 165M daily predictions with full MLOps governance, including drift detection, bias checks, and MLflow lineage. Skilled in Python, SQL, Kubernetes, Terraform, and GitOps CI/CD, with growing experience in GenAI platform work using LangChain, RAG pipelines, and LLM evaluation. Passionate about the engineering craft behind ML: reusable frameworks, observability, and reliable infrastructure. Currently expanding into cloud and data engineering through the Jarvis program and seeking a Machine Learning Engineer or MLOps Engineer role."
