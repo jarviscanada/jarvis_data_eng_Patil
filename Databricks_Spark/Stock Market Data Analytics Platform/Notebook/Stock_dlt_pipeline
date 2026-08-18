@@ -1,0 +1,358 @@
+import dlt
+from pyspark.sql import functions as F
+from pyspark.sql.types import StructType, StructField, StringType, DoubleType, LongType
+from pyspark.sql.window import Window
+import requests
+import time
+
+API_KEY = dbutils.secrets.get("stock-api", "twelve-data-key")
+SYMBOLS = ["AAPL", "MSFT", "GOOGL", "AMZN"]
+RATE_LIMIT_DELAY = 8
+
+
+# =========================================================
+# SCHEMAS
+# =========================================================
+
+prices_schema = StructType([
+    StructField("symbol", StringType(), True),
+    StructField("date", StringType(), True),
+    StructField("open", DoubleType(), True),
+    StructField("high", DoubleType(), True),
+    StructField("low", DoubleType(), True),
+    StructField("close", DoubleType(), True),
+    StructField("volume", LongType(), True)
+])
+
+quotes_schema = StructType([
+    StructField("symbol", StringType(), True),
+    StructField("price", DoubleType(), True),
+    StructField("change", DoubleType(), True),
+    StructField("change_percent", StringType(), True),
+    StructField("latest_trading_day", StringType(), True)
+])
+
+company_schema = StructType([
+    StructField("symbol", StringType(), True),
+    StructField("name", StringType(), True),
+    StructField("sector", StringType(), True),
+    StructField("industry", StringType(), True),
+    StructField("market_cap", StringType(), True),
+    StructField("description", StringType(), True),
+    StructField("pe_ratio", StringType(), True),
+    StructField("dividend_yield", StringType(), True),
+    StructField("week_52_high", StringType(), True),
+    StructField("week_52_low", StringType(), True)
+])
+
+
+# =========================================================
+# SHARED FETCH HELPER  no artificial call cap; Twelve Data's own
+# per-minute limiter is respected via RATE_LIMIT_DELAY instead
+# =========================================================
+
+def safe_get(url, symbol, label):
+    try:
+        resp = requests.get(url, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        print(f"DEBUG [{label}/{symbol}] raw response: {data}")
+        if isinstance(data, dict) and (data.get("status") == "error" or "code" in data):
+            print(f"WARNING [{label}/{symbol}]: API error -> {data.get('message', data)}")
+            return None
+        return data
+    except Exception as e:
+        print(f"EXCEPTION [{label}/{symbol}]: {e}")
+        return None
+
+
+# =========================================================
+# API FETCH FUNCTIONS
+# =========================================================
+
+def fetch_daily_prices(symbol):
+    url = f"https://api.twelvedata.com/time_series?symbol={symbol}&interval=1day&outputsize=100&apikey={API_KEY}"
+    data = safe_get(url, symbol, "daily_prices")
+    if not data:
+        return []
+    values = data.get("values", [])
+    rows = []
+    for v in values:
+        try:
+            rows.append({
+                "symbol": symbol,
+                "date": v["datetime"],
+                "open": float(v["open"]),
+                "high": float(v["high"]),
+                "low": float(v["low"]),
+                "close": float(v["close"]),
+                "volume": int(v["volume"]),
+            })
+        except (KeyError, ValueError) as e:
+            print(f"Row parse error for {symbol} on {v.get('datetime')}: {e}")
+            continue
+    return rows
+
+
+def fetch_quote(symbol):
+    url = f"https://api.twelvedata.com/quote?symbol={symbol}&apikey={API_KEY}"
+    data = safe_get(url, symbol, "quote")
+    if not data:
+        return None
+    try:
+        return {
+            "symbol": symbol,
+            "price": float(data.get("close", 0)),
+            "change": float(data.get("change", 0)),
+            "change_percent": str(data.get("percent_change", "0")) + "%",
+            "latest_trading_day": data.get("datetime")
+        }
+    except (ValueError, TypeError) as e:
+        print(f"Quote parse error for {symbol}: {e}")
+        return None
+
+
+def fetch_overview(symbol):
+    profile_url = f"https://api.twelvedata.com/profile?symbol={symbol}&apikey={API_KEY}"
+    profile_data = safe_get(profile_url, symbol, "profile")
+    if not profile_data or "symbol" not in profile_data:
+        print(f"SKIP {symbol}: no valid profile data returned")
+        return None
+
+    time.sleep(RATE_LIMIT_DELAY)  # space out the two calls for THIS symbol
+
+    stats_url = f"https://api.twelvedata.com/statistics?symbol={symbol}&apikey={API_KEY}"
+    stats_data = safe_get(stats_url, symbol, "statistics")
+
+    stats = stats_data.get("statistics", {}) if isinstance(stats_data, dict) else {}
+    valuation = stats.get("valuations_metrics", {}) if isinstance(stats, dict) else {}
+    dividends = stats.get("dividends_and_splits", {}) if isinstance(stats, dict) else {}
+    stock_stats = stats.get("stock_price_summary", {}) if isinstance(stats, dict) else {}
+
+    return {
+        "symbol": symbol,
+        "name": profile_data.get("name"),
+        "sector": profile_data.get("sector"),
+        "industry": profile_data.get("industry"),
+        "market_cap": str(valuation.get("market_capitalization")) if valuation.get("market_capitalization") is not None else None,
+        "description": profile_data.get("description"),
+        "pe_ratio": str(valuation.get("trailing_pe")) if valuation.get("trailing_pe") is not None else None,
+        "dividend_yield": str(dividends.get("forward_annual_dividend_yield")) if dividends.get("forward_annual_dividend_yield") is not None else None,
+        "week_52_high": str(stock_stats.get("fifty_two_week_high")) if stock_stats.get("fifty_two_week_high") is not None else None,
+        "week_52_low": str(stock_stats.get("fifty_two_week_low")) if stock_stats.get("fifty_two_week_low") is not None else None,
+    }
+
+
+# =========================================================
+# BRONZE LAYER
+# =========================================================
+
+@dlt.table(
+    name="bronze_stock_prices",
+    comment="Raw daily OHLCV price data from Twelve Data time_series endpoint"
+)
+def bronze_stock_prices():
+    all_rows = []
+    for i, sym in enumerate(SYMBOLS):
+        if i > 0:
+            time.sleep(RATE_LIMIT_DELAY)
+        all_rows.extend(fetch_daily_prices(sym))
+    if not all_rows:
+        raise ValueError("No price data fetched for any symbol  check API key/logs above")
+    return spark.createDataFrame(all_rows, schema=prices_schema)
+
+
+@dlt.table(
+    name="bronze_stock_quotes",
+    comment="Latest quote snapshot per symbol from Twelve Data quote endpoint"
+)
+def bronze_stock_quotes():
+    rows = []
+    for i, sym in enumerate(SYMBOLS):
+        if i > 0:
+            time.sleep(RATE_LIMIT_DELAY)
+        q = fetch_quote(sym)
+        if q:
+            rows.append(q)
+    if not rows:
+        raise ValueError("No quote data fetched for any symbol  check API key/logs above")
+    df = spark.createDataFrame(rows, schema=quotes_schema)
+    return df.withColumn("ingested_at", F.current_timestamp())
+
+
+@dlt.table(
+    name="bronze_company_info",
+    comment="Company profile + financial statistics per symbol from Twelve Data"
+)
+def bronze_company_info():
+    rows = []
+    for i, sym in enumerate(SYMBOLS):
+        if i > 0:
+            time.sleep(RATE_LIMIT_DELAY)
+        info = fetch_overview(sym)
+        if info:
+            rows.append(info)
+        else:
+            print(f"WARNING: no company info collected for {sym}")
+    if not rows:
+        raise ValueError("No company info fetched for any symbol  check API key/logs above")
+    print(f"bronze_company_info: collected {len(rows)} of {len(SYMBOLS)} symbols")
+    return spark.createDataFrame(rows, schema=company_schema)
+
+
+# =========================================================
+# SILVER LAYER
+# =========================================================
+
+@dlt.table(
+    name="silver_stock_prices",
+    comment="Cleaned and typed daily price data with derived daily change metrics"
+)
+@dlt.expect_or_drop("valid_price", "close > 0")
+@dlt.expect_or_drop("valid_date", "date IS NOT NULL")
+@dlt.expect_or_drop("valid_volume", "volume >= 0")
+def silver_stock_prices():
+    return (
+        dlt.read("bronze_stock_prices")
+        .withColumn("date", F.to_date("date", "yyyy-MM-dd"))
+        .withColumn("daily_range", F.round(F.col("high") - F.col("low"), 2))
+        .withColumn("daily_change", F.round(F.col("close") - F.col("open"), 2))
+        .withColumn(
+            "daily_change_pct",
+            F.round(((F.col("close") - F.col("open")) / F.col("open")) * 100, 2)
+        )
+        .dropDuplicates(["symbol", "date"])
+    )
+
+
+@dlt.table(
+    name="silver_stock_quotes",
+    comment="Cleaned latest quote data with numeric change_percent"
+)
+@dlt.expect_or_drop("valid_quote_price", "price > 0")
+def silver_stock_quotes():
+    return (
+        dlt.read("bronze_stock_quotes")
+        .withColumn("change_percent", F.regexp_replace("change_percent", "%", "").cast("double"))
+        .withColumn("latest_trading_day", F.to_date("latest_trading_day", "yyyy-MM-dd"))
+        .dropDuplicates(["symbol"])
+    )
+
+
+@dlt.table(
+    name="silver_company_info",
+    comment="Cleaned company fundamentals with numeric fields cast from strings"
+)
+def silver_company_info():
+    return (
+        dlt.read("bronze_company_info")
+        .withColumn(
+            "market_cap",
+            F.when(F.col("market_cap") == "None", None).otherwise(F.col("market_cap")).cast("double")
+        )
+        .withColumn(
+            "pe_ratio",
+            F.when(F.col("pe_ratio") == "None", None).otherwise(F.col("pe_ratio")).cast("double")
+        )
+        .withColumn(
+            "dividend_yield",
+            F.when(F.col("dividend_yield") == "None", None).otherwise(F.col("dividend_yield")).cast("double")
+        )
+        .withColumn(
+            "week_52_high",
+            F.when(F.col("week_52_high") == "None", None).otherwise(F.col("week_52_high")).cast("double")
+        )
+        .withColumn(
+            "week_52_low",
+            F.when(F.col("week_52_low") == "None", None).otherwise(F.col("week_52_low")).cast("double")
+        )
+        .dropDuplicates(["symbol"])
+    )
+
+
+# =========================================================
+# GOLD LAYER
+# =========================================================
+
+@dlt.table(
+    name="gold_price_trends",
+    comment="Daily closing price change and % change over 7/30/90 day windows, per symbol"
+)
+def gold_price_trends():
+    df = dlt.read("silver_stock_prices")
+    w = Window.partitionBy("symbol").orderBy("date")
+
+    df = (df
+        .withColumn("close_7d_ago", F.lag("close", 7).over(w))
+        .withColumn("close_30d_ago", F.lag("close", 30).over(w))
+        .withColumn("close_90d_ago", F.lag("close", 90).over(w))
+        .withColumn("price_change_7d", F.round(F.col("close") - F.col("close_7d_ago"), 2))
+        .withColumn("price_change_30d", F.round(F.col("close") - F.col("close_30d_ago"), 2))
+        .withColumn("price_change_90d", F.round(F.col("close") - F.col("close_90d_ago"), 2))
+        .withColumn(
+            "pct_change_7d",
+            F.round((F.col("price_change_7d") / F.col("close_7d_ago")) * 100, 2)
+        )
+        .withColumn(
+            "pct_change_30d",
+            F.round((F.col("price_change_30d") / F.col("close_30d_ago")) * 100, 2)
+        )
+        .withColumn(
+            "pct_change_90d",
+            F.round((F.col("price_change_90d") / F.col("close_90d_ago")) * 100, 2)
+        )
+    )
+    return df.select(
+        "symbol", "date", "close",
+        "price_change_7d", "pct_change_7d",
+        "price_change_30d", "pct_change_30d",
+        "price_change_90d", "pct_change_90d"
+    )
+
+
+@dlt.table(
+    name="gold_volume_trends",
+    comment="Average daily volume over 7/30/90 day windows, per symbol"
+)
+def gold_volume_trends():
+    df = dlt.read("silver_stock_prices")
+    w7 = Window.partitionBy("symbol").orderBy("date").rowsBetween(-6, 0)
+    w30 = Window.partitionBy("symbol").orderBy("date").rowsBetween(-29, 0)
+    w90 = Window.partitionBy("symbol").orderBy("date").rowsBetween(-89, 0)
+
+    df = (df
+        .withColumn("avg_volume_7d", F.round(F.avg("volume").over(w7), 0))
+        .withColumn("avg_volume_30d", F.round(F.avg("volume").over(w30), 0))
+        .withColumn("avg_volume_90d", F.round(F.avg("volume").over(w90), 0))
+    )
+    return df.select(
+        "symbol", "date", "volume",
+        "avg_volume_7d", "avg_volume_30d", "avg_volume_90d"
+    )
+
+
+@dlt.table(
+    name="gold_latest_snapshot",
+    comment="Combined latest quote, trend summary, and company fundamentals per symbol  dashboard-ready"
+)
+def gold_latest_snapshot():
+    quotes = dlt.read("silver_stock_quotes")
+    trends = dlt.read("gold_price_trends")
+    company = dlt.read("silver_company_info")
+
+    latest_trends = (trends
+        .withColumn(
+            "rn",
+            F.row_number().over(Window.partitionBy("symbol").orderBy(F.desc("date")))
+        )
+        .filter(F.col("rn") == 1)
+        .drop("rn")
+    )
+
+    return (quotes
+        .join(latest_trends, "symbol", "left")
+        .join(
+            company.select("symbol", "name", "sector", "industry", "market_cap", "pe_ratio"),
+            "symbol", "left"
+        )
+    )
