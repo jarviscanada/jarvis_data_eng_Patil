@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retail Intelligence Dashboard</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --title: #0f172a;
+      --muted: #475569;
+      --line: #dfe7f1;
+      --blue: #2563eb;
+      --green: #10b981;
+      --orange: #f59e0b;
+      --red: #ef4444;
+      --purple: #7c3aed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--title);
+    }
+    .page {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 24px 48px;
+    }
+    .header {
+      background: linear-gradient(135deg, #eff6ff, #ecfeff);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px 28px;
+      margin-bottom: 22px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      letter-spacing: -0.04em;
+    }
+    .subtitle {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin: 20px 0 24px;
+    }
+    .kpi {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 20px 16px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    }
+    .kpi-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .kpi-value {
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 18px 12px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    }
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+    .chart {
+      height: 240px;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #f8fbff, #f4f7fb);
+      border: 1px solid #edf2f7;
+      position: relative;
+      overflow: hidden;
+    }
+    .bars {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 18px;
+      top: 18px;
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+    }
+    .bar {
+      flex: 1;
+      border-radius: 8px 8px 0 0;
+      background: linear-gradient(180deg, var(--blue), #7cb8ff);
+      min-height: 20px;
+    }
+    .bar.orange { background: linear-gradient(180deg, #fbbf24, var(--orange)); }
+    .bar.green { background: linear-gradient(180deg, #34d399, var(--green)); }
+    .bar.red { background: linear-gradient(180deg, #fca5a5, var(--red)); }
+    .bar.purple { background: linear-gradient(180deg, #c4b5fd, var(--purple)); }
+    .legend {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 8px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    .summary {
+      margin-top: 22px;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+    .summary h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+    ul {
+      margin: 8px 0 0 18px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <h1>Retail Intelligence Dashboard</h1>
+      <div class="subtitle">London Gift Shop • Sales, retention, and customer value overview</div>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi">
+        <div class="kpi-label">Total Revenue</div>
+        <div class="kpi-value">£4.2M</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Orders</div>
+        <div class="kpi-value">48,620</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Customers</div>
+        <div class="kpi-value">3,980</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Avg. Order</div>
+        <div class="kpi-value">£87</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="panel">
+        <h2>Invoice Amount Distribution</h2>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar" style="height: 40%"></div>
+            <div class="bar" style="height: 58%"></div>
+            <div class="bar" style="height: 72%"></div>
+            <div class="bar" style="height: 56%"></div>
+            <div class="bar" style="height: 77%"></div>
+            <div class="bar" style="height: 69%"></div>
+            <div class="bar" style="height: 88%"></div>
+            <div class="bar" style="height: 60%"></div>
+            <div class="bar" style="height: 80%"></div>
+            <div class="bar" style="height: 92%"></div>
+            <div class="bar" style="height: 68%"></div>
+            <div class="bar" style="height: 74%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Monthly Sales</h2>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar green" style="height: 42%"></div>
+            <div class="bar green" style="height: 46%"></div>
+            <div class="bar green" style="height: 54%"></div>
+            <div class="bar green" style="height: 58%"></div>
+            <div class="bar green" style="height: 66%"></div>
+            <div class="bar green" style="height: 82%"></div>
+            <div class="bar green" style="height: 76%"></div>
+            <div class="bar green" style="height: 89%"></div>
+            <div class="bar green" style="height: 71%"></div>
+            <div class="bar green" style="height: 64%"></div>
+            <div class="bar green" style="height: 60%"></div>
+            <div class="bar green" style="height: 68%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Placed vs Canceled Orders</h2>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar" style="height: 76%"></div>
+            <div class="bar" style="height: 68%"></div>
+            <div class="bar orange" style="height: 30%"></div>
+            <div class="bar" style="height: 82%"></div>
+            <div class="bar orange" style="height: 28%"></div>
+            <div class="bar" style="height: 88%"></div>
+            <div class="bar orange" style="height: 33%"></div>
+            <div class="bar" style="height: 90%"></div>
+            <div class="bar orange" style="height: 22%"></div>
+            <div class="bar" style="height: 74%"></div>
+            <div class="bar orange" style="height: 25%"></div>
+            <div class="bar" style="height: 80%"></div>
+          </div>
+        </div>
+        <div class="legend">
+          <span><span class="dot" style="background:#2563eb"></span>Placed</span>
+          <span><span class="dot" style="background:#f59e0b"></span>Canceled</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Customer Segments</h2>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar purple" style="height: 44%"></div>
+            <div class="bar purple" style="height: 62%"></div>
+            <div class="bar purple" style="height: 58%"></div>
+            <div class="bar purple" style="height: 74%"></div>
+            <div class="bar purple" style="height: 66%"></div>
+            <div class="bar purple" style="height: 84%"></div>
+            <div class="bar purple" style="height: 52%"></div>
+            <div class="bar purple" style="height: 71%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary">
+      <h3>Executive Summary</h3>
+      <ul>
+        <li>Monthly sales rise sharply during seasonal peaks, indicating stronger demand in high-conversion periods.</li>
+        <li>Customer retention is strongest among loyal and champion segments, which should be prioritized with reward-based offers.</li>
+        <li>Cancellation patterns suggest a need to monitor fulfillment quality and post-purchase customer experience.</li>
+        <li>New vs existing customer behavior indicates the business can grow both through acquisition and retention strategy.</li>
+        <li>RFM segmentation provides the clearest route for personalized marketing, win-back campaigns, and revenue protection.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
