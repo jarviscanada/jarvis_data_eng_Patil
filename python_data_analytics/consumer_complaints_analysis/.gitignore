@@ -1,0 +1,23 @@
+# Local data and generated output
+*.csv
+*.zip
+*.parquet
+*.pkl
+*.xlsx
+*.xls
+data/
+outputs/
+reports/*.pptx
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
