@@ -1,104 +1,101 @@
 # Consumer Complaint Intelligence
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=for-the-badge&logo=python" alt="Python" />
-  <img src="https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?style=for-the-badge&logo=pandas" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly" alt="Plotly" />
-  <img src="https://img.shields.io/badge/CFPB-Consumer%20Finance-16A34A?style=for-the-badge" alt="CFPB" />
-</p>
+A portfolio capstone project analyzing the U.S. CFPB Consumer Complaint Database to understand complaint volume, product risk, institutional concentration, and customer experience outcomes across financial services.
 
-A story-driven data analysis of the U.S. Consumer Financial Protection Bureau complaint database — a massive public dataset that captures how consumers experience financial products and institutions across time.
+This project turns a large public complaints dataset into an analytical narrative grounded in real-world regulatory and customer signals. It is built for exploratory analysis, reproducible research, and stakeholder-friendly visual reporting.
 
-This project turns raw complaint records into a readable map of risk, market concentration, product pain points, and institutional behavior.
+## Project purpose
 
-## Why this project matters
+The analysis answers questions such as:
 
-Every complaint tells a story. When you combine millions of them, those stories reveal patterns that matter to regulators, financial institutions, and the public:
+- Which companies receive the highest complaint volumes?
+- Which products and issues generate the most pressure on consumers?
+- How have complaint patterns shifted over time?
+- What do complaint-resolution outcomes look like across firms and product categories?
+- Which institutions show the strongest or weakest operational handling?
 
-- Which financial products trigger the most complaints?
-- Which companies dominate complaint volume?
-- Are complaint trends shifting over time?
-- Where do consumers feel the most friction in the system?
-
-This notebook uses data as a lens to understand customer experience at scale.
-
-## The dataset
+## Dataset
 
 Source: CFPB Consumer Complaint Database
 
-- approximately 1.28M complaint records
-- around 5,275 companies involved
-- time range: December 2011 to May 2019
+- Approx. 1.28 million complaints
+- Roughly 5,275 companies represented
+- Time range: Dec 2011 to May 2019
+- Data source: https://www.kaggle.com/datasets/selener/consumer-complaint-database
 
-Data source: https://www.kaggle.com/datasets/selener/consumer-complaint-database
+Important:
 
-> The raw file is not included in the repository. Download the dataset from Kaggle and place it in a local `data/` folder before running the notebook.
+- The raw dataset is not committed to this repository.
+- Download the Kaggle file locally and place it in `data/rows.csv` or a similar local path.
+- Update the notebook `DATA_PATH` variable to your local CSV path before running the analysis.
 
-## Project objective
-
-This project is designed to do more than summarize numbers. It aims to:
-
-- profile the complaint landscape
-- identify dominant financial products and company behaviors
-- visualize complaint patterns over time
-- surface business and regulatory signals hidden in large-scale text and categorical data
-
-## What the notebook does
-
-The analysis explores the dataset through an end-to-end Python workflow:
-
-- load and inspect the complaint data
-- clean and standardize fields for analysis
-- profile complaint distribution by product, company, and timeframe
-- derive trend and concentration insights
-- build static and interactive visual narratives using Matplotlib and Plotly
-
-## Tech stack
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Jupyter Notebook
-
-## Expected outputs
-
-The analysis is intended to generate:
-
-- product-level complaint trends
-- company concentration insights
-- time-based complaint behavior
-- visual summaries for stakeholder understanding
-- a narrative view of consumer financial pain points
-
-## Repository structure
+## Project structure
 
 ```text
 consumer_complaints_analysis/
-├── Consumer-Complaints_DA.ipynb
 ├── README.md
 ├── .gitignore
-└── data/
+├── requirements.txt
+├── data/
+│   └── README.md
+├── notebooks/
+│   ├── CFPB_V2.ipynb
+│   └── Consumer-Complaints_DA.ipynb
+├── reports/
+│   └── README.md
+├── src/
+│   └── README.md
+└── outputs/   (optional, for cleaned data or exported charts)
 ```
 
-## Why this is interesting
+## Notebook overview
 
-This project sits at the intersection of:
+### `notebooks/CFPB_V2.ipynb`
+A more polished, consolidated analytical notebook with an end-to-end story from dataset profiling through market concentration, operational performance, complaint outcomes, and a bureau accountability lens.
 
-- public policy
-- financial services
-- behavioral analytics
-- communication of risk through data storytelling
+### `notebooks/Consumer-Complaints_DA.ipynb`
+A broader exploratory notebook that walks through the core data profiling, cleaning, and analytical narrative using Python, pandas, and visualization libraries.
 
-It is not just a data exercise — it is a way to translate massive consumer data into meaningful insight.
+## Tools and stack
 
-## Final thought
+- Python 3
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- Jupyter Notebook
 
-The real value of this project is not only the charts; it is the ability to look at an entire financial ecosystem and ask: where is the system breaking down, and which patterns deserve attention?
+## Setup
 
-This notebook is a compact but powerful answer to that question.
+1. Open the project folder.
+2. Create a virtual environment if desired.
+3. Install dependencies:
 
----
+```bash
+pip install -r requirements.txt
+```
 
-Built to analyze complaint volume, discover product risk, and turn raw financial dissatisfaction into evidence-backed insight.
+4. Download the CFPB file from Kaggle and place it in the local `data` folder.
+5. Update the `DATA_PATH` variable in the notebook to the correct CSV location.
+6. Run the notebooks in Jupyter or VS Code Notebook mode.
+
+## Recommended workflow
+
+- Use the notebooks as the primary analysis environment.
+- Store cleaned datasets or exports in a future `outputs/` directory.
+- Keep final presentation materials in `reports/`.
+- Add reusable functions under `src/` when the analysis is refactored for reuse.
+
+## Business value
+
+This project demonstrates how large-scale public complaint data can be used to:
+
+- identify systemic financial product risk
+- benchmark company performance against a broad market baseline
+- quantify complaint concentration and operational quality
+- transform raw consumer signals into a decision-ready analytical story
+
+## Notes
+
+The project is intentionally focused on exploratory and descriptive analysis rather than production ML deployment. It is best used as a strong analytics and storytelling capstone grounded in real regulatory data.
