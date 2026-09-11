@@ -5,7 +5,8 @@
 *.pkl
 *.xlsx
 *.xls
-data/
+data/*
+!data/README.md
 outputs/
 reports/*.pptx
 
