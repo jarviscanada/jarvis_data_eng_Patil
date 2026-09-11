@@ -122,7 +122,7 @@
     {
       "company": "Gartner (Talent Neuron)",
       "description": "Developed ETL workflows on Databricks and Microsoft Azure using Python and Spark, turning large-scale raw workforce datasets into the clean, queryable tables behind Talent Neuron's labour market research. Built and maintained the extraction and transformation pipelines feeding recurring research deliverables, and designed the dashboards and reporting layer that made skills demand, talent supply, and hiring trends legible to analysts and clients. Supported model retraining and scheduled orchestration for the research products, and worked directly with analysts to turn open research questions into reproducible datasets they could interrogate themselves.",
-      "duration": "Sept 2023 - Dec 2025",
+      "duration": "Jan 2024 - Dec 2025",
       "title": "AI/ML Research Engineer"
     },
     {
