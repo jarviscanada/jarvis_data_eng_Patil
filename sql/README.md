@@ -167,7 +167,7 @@ WHERE facs.name IN ('Tennis Court 1', 'Tennis Court 2')
 ORDER BY bks.starttime;
 ```
 
-###### Question 14: Self JOIN  recommenders
+###### Question 14: Self JOIN - recommenders
 
 ```sql
 SELECT DISTINCT
@@ -181,7 +181,7 @@ INNER JOIN cd.members recs
 ORDER BY recsurname, recfirstname;
 ```
 
-###### Question 15: Self JOIN  members with recommenders
+###### Question 15: Self JOIN - members with recommenders
 
 ```sql
 SELECT DISTINCT
@@ -286,7 +286,7 @@ GROUP BY mems.surname, mems.firstname, mems.memid
 ORDER BY mems.memid;
 ```
 
-###### Question 23: Window function  COUNT OVER
+###### Question 23: Window function - COUNT OVER
 
 ```sql
 SELECT
@@ -297,7 +297,7 @@ FROM cd.members
 ORDER BY joindate;
 ```
 
-###### Question 24: Window function  ROW_NUMBER
+###### Question 24: Window function - ROW_NUMBER
 
 ```sql
 SELECT
