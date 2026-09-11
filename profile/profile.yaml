@@ -5,7 +5,7 @@ name: "Kaustubh Patil"
 github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_Patil"
 
 # Introduce yourself (at least 80 words)
-summary: "Machine Learning Engineer at Jarvis Consulting with six years of experience building data and ML systems on Databricks, Azure, and GCP. At Gartner (Talent Neuron) I developed PySpark workflows over large-scale workforce datasets and supported the ETL, retraining, and orchestration behind production AI/ML products. Outside of client work I publish the tooling I wish existed: agentnorm, a zero-dependency behavioural monitor for AI agents, and a Buhlmann credibility study across roughly 40,000 agent episodes, both shipped on PyPI. My deep learning capstones turn models into decisions, pricing a credit scorecard at 578M dollars of net benefit and showing how an equity signal's ranking inverts once realistic trading costs are charged. What interests me most is the part after the model works: calibration, leakage, drift, and pipelines that stay honest in production."
+summary: "Machine Learning Engineer at Jarvis Consulting with six years of experience building data and ML systems on Databricks, Azure, and GCP. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows that turned large-scale workforce data into labour market research, along with the dashboards analysts and clients read it through. Outside of client work I publish the tooling I wish existed: agentnorm, a zero-dependency behavioural monitor for AI agents, and a Buhlmann credibility study across roughly 40,000 agent episodes, both shipped on PyPI. My deep learning capstones turn models into decisions, pricing a credit scorecard at 578M dollars of net benefit and showing how an equity signal's ranking inverts once realistic trading costs are charged. What interests me most is the part after the model works: calibration, leakage, drift, and pipelines that stay honest in production."
 
 # Group your skills by level.
 skills:
@@ -116,17 +116,17 @@ highlighted_projects:
 professional_experience:
   - title: "Machine Learning Engineer"
     company: "Jarvis Consulting"
-    duration: "Jan 2026 - Present"
+    duration: "Apr 2026 - Present"
     description: "Design, deliver, and maintain secure, high-performance ML data pipelines using Python, PySpark, and cloud-native technologies for banking and financial services clients. Document service architecture with UML sequence and component diagrams so backend designs are reviewable before implementation, and streamline ETL and analytics workflows on cloud platforms. Build production-grade Linux, SQL, Python, and Spark projects with Git, Docker, and CI/CD while working in an agile team with peer code review."
 
-  - title: "Data and Research Engineer (AI/ML Platform)"
+  - title: "AI/ML Research Engineer"
     company: "Gartner (Talent Neuron)"
     duration: "Sept 2023 - Dec 2025"
-    description: "Developed data workflows on Databricks and Microsoft Azure using Python and Spark to process large-scale workforce datasets powering AI/ML products. Supported Azure-based ETL, data extraction, model retraining, and workflow orchestration across the model lifecycle. Built and maintained RESTful microservices for internal data workflows using Python and cloud-native patterns, and contributed to CI/CD implementation for ML and data pipelines, enabling reliable deployment and consistent production processes across teams."
+    description: "Developed ETL workflows on Databricks and Microsoft Azure using Python and Spark, turning large-scale raw workforce datasets into the clean, queryable tables behind Talent Neuron's labour market research. Built and maintained the extraction and transformation pipelines feeding recurring research deliverables, and designed the dashboards and reporting layer that made skills demand, talent supply, and hiring trends legible to analysts and clients. Supported model retraining and scheduled orchestration for the research products, and worked directly with analysts to turn open research questions into reproducible datasets they could interrogate themselves."
 
   - title: "Data Engineer"
     company: "IPLIX Media"
-    duration: "Jan 2022 - Sept 2023"
+    duration: "Jan 2022 - Dec 2023"
     description: "Built and maintained real-time analytics pipelines in Python and SQL to process high-volume YouTube and social media data, and delivered the Power BI dashboards and reporting layer on top of them. Designed data-processing workflows that extracted quantitative insights from unstructured content to support creator and campaign decisions. Implemented automated unit and integration tests inside CI/CD pipelines so data regressions were caught before release."
 
   - title: "Data Engineer"
