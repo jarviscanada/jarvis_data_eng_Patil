@@ -1,15 +1,31 @@
 # Linux Cluster Monitoring Agent
 
 ## Introduction
-The Linux Cluster Monitoring Agent is a resource monitoring solution designed for managing a cluster of Linux servers. The application collects hardware specification data and real-time resource usage data from each server in the cluster and persists it into a centralized PostgreSQL database. This allows the LCA team to monitor server performance, analyze resource utilization trends, and make informed decisions about infrastructure scaling and optimization. The primary users are system administrators and infrastructure managers who need visibility into their server cluster. The technologies used in this project include Bash scripting for data collection, PostgreSQL for data persistence, Docker for containerizing the database instance, Git for version control, and crontab for automating the data collection process.
+The Linux Cluster Monitoring Agent gives the LCA team a straight answer to three
+questions they could not previously answer without SSH-ing into every box: **which
+servers are running out of memory, which ones stopped reporting, and where is CPU
+demand heading?**
+
+Each node runs a pair of Bash agents. One records the hardware specification once;
+the other samples CPU, memory, and disk every minute from crontab. Both write to a
+central PostgreSQL instance running in Docker, so the cluster's history accumulates
+in one queryable place instead of in `top` output nobody kept. The analytical queries
+that answer the three questions above live in [`sql/queries.sql`](sql/queries.sql).
+
+Built for system administrators and infrastructure managers doing capacity planning.
+Bash for collection, PostgreSQL for persistence, Docker for a reproducible database,
+crontab for scheduling, and Git for version control.
 
 ## Quick Start
+
+All commands are run from this `linux_sql` directory.
 
 ```bash
 # 1. Start a psql instance using psql_docker.sh
 ./scripts/psql_docker.sh create db_username db_password
 
-# 2. Create tables using ddl.sql
+# 2. Create the database, then the tables using ddl.sql
+createdb -h localhost -U postgres host_agent
 psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 
 # 3. Insert hardware specs data into the DB using host_info.sh (run once per server)
@@ -20,7 +36,10 @@ psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 
 # 5. Crontab setup - collect usage data every minute
 crontab -e
-* * * * * bash /home/rocky/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log 2>&1
+* * * * * bash /home/rocky/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log 2>&1
+
+# 6. Answer the three monitoring questions
+psql -h localhost -U postgres -d host_agent -f sql/queries.sql
 ```
 
 ## Implementation
@@ -49,10 +68,19 @@ The diagram below shows a Linux cluster with three hosts. Each host runs the mon
 
 - **crontab**: Automates the execution of `host_usage.sh` every minute to continuously collect resource usage data.
 ```bash
-* * * * * bash /home/rocky/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log 2>&1
+* * * * * bash /home/rocky/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log 2>&1
 ```
 
-- **queries.sql**: Contains SQL queries to answer business questions such as identifying servers with low memory, detecting server failures by checking for missing data points, and analyzing CPU usage trends across the cluster over time.
+- **sql/ddl.sql**: Creates `host_info` and `host_usage`, with `hostname` made UNIQUE because
+`host_usage.sh` resolves `host_id` through a subquery that must return exactly one row.
+
+- **sql/queries.sql**: Answers the three monitoring questions.
+  1. *Low memory* — each host's most recent reading, flagged under 20% free, converting
+     `total_mem` from KB to MB so the two columns are comparable.
+  2. *Missing data points* — rows are bucketed into 5-minute windows; a healthy host
+     contributes 5, so any bucket with fewer marks an agent or host that dropped out.
+  3. *CPU trend* — utilisation as `100 - cpu_idle`, averaged per host per bucket, with
+     `LAG` reporting the change against the previous window.
 
 ### Database Modeling
 
