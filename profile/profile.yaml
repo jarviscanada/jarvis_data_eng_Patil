@@ -69,26 +69,35 @@ jarvis_projects:
     # Keywords: Databricks, PySpark, Delta Lake, Medallion architecture, DLT, Unity Catalog, MLlib
     description: "Built two Databricks Lakehouse pipelines on the Bronze, Silver, and Gold medallion pattern using PySpark and Delta Lake. The fraud platform ingests transaction, card, user, and label data from SQL Server and Azure Storage, standardizes and enriches it, and publishes Gold fraud KPIs alongside a Random Forest credit-risk classifier. The market platform ingests the Twelve Data API through a Delta Live Tables pipeline, applies short, medium, and long window trend analysis, and governs the published tables with Unity Catalog for dashboarding."
 
-# Comment out the projects below until you have started them.
-# Uncomment and fill in each description as the project completes.
-#
-#  - name: "Core Java Apps"
-#    git_url: "/core_java"
-#    description:
-#      # Keywords: Java 8, REST API, OAuth, Design patterns (DAO, MVC), JUnit, Mockito, Docker
-#      - "Twitter CRUD App: "
-#      # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD, DAO
-#      - "JDBC App: "
-#      # Keywords: Java 8, Lambda, Stream API, IntelliJ
-#      - "Grep App: "
-#
-#  - name: "Spring RESTful Microservices App"
-#    git_url: "/springboot"
-#    description: ""
-#
-#  - name: "Cloud/DevOps"
-#    git_url: "/cloud_devops"
-#    description: ""
+  # Deep learning capstones. Each folder carries the write-up and links to the
+  # full repository with notebooks, trained models and reports.
+  - name: "Credit Scoring Decision System"
+    git_url: "/credit_scoring"
+    # Keywords: Python, scikit-learn, gradient boosting, SHAP, calibration, PSI, fairness audit
+    description: "Built an end-to-end consumer credit scoring system on 307,511 Home Credit applications and 1.7M credit-bureau records, reaching 0.774 test AUROC and converting it into a decision rule worth $578.7M net on the sealed test book. Priced every possible approval rate with a profit curve, verified calibration decile by decile instead of class weighting, mapped all 279 features to lawful adverse-action reasons, and test-fired the PSI drift alarm under a simulated recession. A fairness audit found gender among the model inputs and removed it for 0.0006 AUROC."
+
+  - name: "Deep Learning Equity Signal"
+    git_url: "/equity_signal"
+    # Keywords: PyTorch, LSTM, 1D CNN, transfer learning, walk-forward validation, backtesting
+    description: "Benchmarked feedforward, LSTM, CNN, and transfer-learning models against a systematic desk's incumbent signal across 48 S&P 500 stocks and 259,073 rows, then charged realistic 10bps trading costs, which inverted the ranking: the incumbent's 159x annual turnover turned a positive gross Sharpe into -0.30 net. Proved leak-freedom by recomputation rather than assertion, fixed an honest accuracy ceiling from return autocorrelation before modeling, and recommended iterating rather than deploying because the best network still lost to equal-weight buy-and-hold."
+
+  # Scheduled later in the program. An empty description renders as "Not Started".
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    # Keywords: Java 8, REST API, OAuth, Design patterns (DAO, MVC), JUnit, Mockito, Docker
+    description: ""
+
+  - name: "Spring RESTful Microservices App"
+    git_url: "/springboot"
+    description: ""
+
+  - name: "JavaScript"
+    git_url: "/javascript"
+    description: ""
+
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
 
 # List of personal/academic projects
 highlighted_projects:
@@ -99,14 +108,6 @@ highlighted_projects:
   - name: "agentnorm: Behavioural Monitoring for AI Agents"
     git_url: "https://github.com/kaustubhspatil/agentnorm"
     description: "Published a zero-dependency Python package that monitors how an AI agent behaves at runtime, as opposed to grading offline what it said. Records tool calls, scopes, and result sizes, then flags runs that do not resemble prior benign ones with an explainable verdict. Designed the API to wrap existing tool callables without restructuring or context propagation, and made the anomaly detection cold-start safe so a new agent version is usable before it has history."
-
-  - name: "Credit Scoring: From 0.774 AUROC to a $578M Decision"
-    git_url: "https://github.com/kaustubhspatil/credit-scoring-decision-system"
-    description: "Built an end-to-end consumer credit scoring system on 307,511 Home Credit applications and 1.7M credit-bureau records, reaching 0.774 test AUROC and converting it into a decision rule worth $578.7M net on the sealed test book. Priced every possible approval rate with a profit curve, verified calibration decile by decile instead of class weighting, mapped all 279 features to lawful adverse-action reasons, and test-fired the PSI drift alarm under a simulated recession. A fairness audit found gender among the model inputs and removed it for 0.0006 AUROC."
-
-  - name: "Deep Learning Equity Signal: The Result That Inverted After Costs"
-    git_url: "https://github.com/kaustubhspatil/sp500-quantitative-deep-learning"
-    description: "Benchmarked feedforward, LSTM, CNN, and transfer-learning models against a systematic desk's incumbent signal across 48 S&P 500 stocks and 259,073 rows, then charged realistic 10bps trading costs, which inverted the ranking: the incumbent's 159x annual turnover turned a positive gross Sharpe into -0.30 net. Proved leak-freedom by recomputation rather than assertion, fixed an honest accuracy ceiling from return autocorrelation before modeling, and recommended iterating rather than deploying because the best network still lost to equal-weight buy-and-hold."
 
   - name: "Biological Network Analysis & Protein Kinase Inhibition in Breast Cancer"
     git_url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Gt5kbUMAAAAJ&citation_for_view=Gt5kbUMAAAAJ:u5HHmVD_uO8C"
