@@ -69,4 +69,3 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](htt
 - AWS Certified Solutions Architect - Associate
 - Oracle Cloud Infrastructure 2025 Certified Application Integration Professional
 - Author of agentnorm and freeboard, two open-source Python packages published on PyPI
-- I watch speedruns of games I have never played. Optimization as a spectator sport.
