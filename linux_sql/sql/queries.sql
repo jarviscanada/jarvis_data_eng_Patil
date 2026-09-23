@@ -1,17 +1,6 @@
--- Linux Cluster Monitoring Agent - analytical queries
---
--- The three questions the LCA team asks of the collected data. Run against the
--- host_agent database once host_usage.sh has been collecting for a few minutes:
---
---   psql -h localhost -U postgres -d host_agent -f sql/queries.sql
+-- usage: psql -h localhost -U postgres -d host_agent -f sql/queries.sql
 
--- ---------------------------------------------------------------------------
--- 1. Which servers are running low on memory?
---
--- total_mem is recorded in KB by /proc/meminfo, memory_free in MB by vmstat,
--- so total_mem is converted before the two are compared. Anything under 20%
--- free on its most recent reading is a candidate for rebalancing.
--- ---------------------------------------------------------------------------
+-- 1. hosts under 20% free memory (total_mem is KB, memory_free is MB)
 SELECT
     i.hostname,
     u."timestamp"                                             AS measured_at,
@@ -20,7 +9,7 @@ SELECT
     ROUND(100.0 * u.memory_free / (i.total_mem / 1024.0), 1)  AS pct_free
 FROM PUBLIC.host_usage u
 JOIN PUBLIC.host_info  i ON i.id = u.host_id
--- keep only each host's latest reading
+-- latest reading only
 WHERE u."timestamp" = (
         SELECT MAX(u2."timestamp")
         FROM PUBLIC.host_usage u2
@@ -29,13 +18,7 @@ WHERE u."timestamp" = (
   AND 100.0 * u.memory_free / (i.total_mem / 1024.0) < 20.0
 ORDER BY pct_free ASC;
 
--- ---------------------------------------------------------------------------
--- 2. Did any server stop reporting?
---
--- host_usage.sh runs once a minute, so a healthy host contributes 5 rows per
--- 5-minute bucket. Fewer than 5 means the agent, the host or the network
--- dropped out during that window.
--- ---------------------------------------------------------------------------
+-- 2. missing data points (expect 5 rows per 5 min bucket)
 SELECT
     i.hostname,
     to_timestamp(
@@ -49,13 +32,7 @@ GROUP BY i.hostname, bucket_start
 HAVING COUNT(*) < 5
 ORDER BY bucket_start DESC, i.hostname;
 
--- ---------------------------------------------------------------------------
--- 3. How is CPU usage trending across the cluster?
---
--- cpu_idle is the percentage of time the CPU was idle, so utilisation is its
--- complement. Averaged per host per 5-minute bucket, with the previous bucket
--- alongside it so a rising trend is visible without leaving SQL.
--- ---------------------------------------------------------------------------
+-- 3. avg CPU usage per 5 min bucket, with change vs previous bucket
 SELECT
     i.hostname,
     to_timestamp(

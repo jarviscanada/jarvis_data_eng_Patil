@@ -69,8 +69,7 @@ jarvis_projects:
     # Keywords: Databricks, PySpark, Delta Lake, Medallion architecture, DLT, Unity Catalog, MLlib
     description: "Built two Databricks Lakehouse pipelines on the Bronze, Silver, and Gold medallion pattern using PySpark and Delta Lake. The fraud platform ingests transaction, card, user, and label data from SQL Server and Azure Storage, standardizes and enriches it, and publishes Gold fraud KPIs alongside a Random Forest credit-risk classifier. The market platform ingests the Twelve Data API through a Delta Live Tables pipeline, applies short, medium, and long window trend analysis, and governs the published tables with Unity Catalog for dashboarding."
 
-  # Deep learning capstones. Each folder carries the write-up and links to the
-  # full repository with notebooks, trained models and reports.
+  # capstones, each folder links to the full repo
   - name: "Credit Scoring Decision System"
     git_url: "/machine_learning/credit_scoring"
     # Keywords: Python, scikit-learn, gradient boosting, SHAP, calibration, PSI, fairness audit
@@ -81,7 +80,7 @@ jarvis_projects:
     # Keywords: PyTorch, LSTM, 1D CNN, transfer learning, walk-forward validation, backtesting
     description: "Benchmarked feedforward, LSTM, CNN, and transfer-learning models against a systematic desk's incumbent signal across 48 S&P 500 stocks and 259,073 rows, then charged realistic 10bps trading costs, which inverted the ranking: the incumbent's 159x annual turnover turned a positive gross Sharpe into -0.30 net. Proved leak-freedom by recomputation rather than assertion, fixed an honest accuracy ceiling from return autocorrelation before modeling, and recommended iterating rather than deploying because the best network still lost to equal-weight buy-and-hold."
 
-  # Scheduled later in the program. An empty description renders as "Not Started".
+  # not started yet (empty description shows "Not Started")
   - name: "Core Java Apps"
     git_url: "/core_java"
     # Keywords: Java 8, REST API, OAuth, Design patterns (DAO, MVC), JUnit, Mockito, Docker
