@@ -17,7 +17,7 @@
     {
       "awards_achievements": [
         "GPA 4.0, with A+ standing across Data Science and Bioinformatics coursework",
-        "Lead author, peer-reviewed publication: Biological Network Analysis \u0026 Protein Kinase Inhibition in Breast Cancer"
+        "Lead author, peer-reviewed publication: Biological Network Analysis & Protein Kinase Inhibition in Breast Cancer"
       ],
       "degree": "Bachelor of Technology",
       "department": "Data Science and Bioinformatics",
@@ -27,6 +27,11 @@
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_Patil",
   "highlighted_projects": [
+    {
+      "description": "Built and operate an agentic IT operations platform on a real multi-cloud estate rather than a simulator. An ontology-driven knowledge graph is exposed to agents as Model Context Protocol tools, with multi-hop retrieval augmented generation over the estate and runtime behavioural monitoring on the agents themselves. Routes across several foundation model providers with cost-aware selection under a fixed budget, and enforces permissions at the tool layer rather than trusting the prompt. The monitoring layer caught a real cross-tenant data disclosure that had passed every unit test, which is why it was extracted and published as agentnorm.",
+      "git_url": "https://github.com/kaustubhspatil/sentinel",
+      "name": "Sentinel: Agentic IT Operations on a Live Multi-Cloud Estate"
+    },
     {
       "description": "Tested whether a pooled Buhlmann credibility prior can price AI agent deployments, across three corpora and roughly 40,000 episodes, with 192 tests and every negative control reported. Replicated the governing constant K on two independent corpora sharing no code path (7.6 and 7.0), establishing it as a property of the agent's role rather than an artifact of one dataset. Shipped the result as a PyPI SDK talking to a live bureau service over TLS, and published a downward correction to an early headline finding when a larger corpus contradicted it.",
       "git_url": "https://github.com/kaustubhspatil/agent-credibility",
@@ -39,8 +44,8 @@
     },
     {
       "description": "Led a peer-reviewed bioinformatics study on protein kinase inhibition networks in breast cancer. Designed the experimental approach, performed network analysis on protein interaction data, validated findings against published literature, and authored the manuscript as lead author through to publication.",
-      "git_url": "https://scholar.google.ca/citations?view_op=view_citation\u0026hl=en\u0026user=Gt5kbUMAAAAJ\u0026citation_for_view=Gt5kbUMAAAAJ:u5HHmVD_uO8C",
-      "name": "Biological Network Analysis \u0026 Protein Kinase Inhibition in Breast Cancer"
+      "git_url": "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Gt5kbUMAAAAJ&citation_for_view=Gt5kbUMAAAAJ:u5HHmVD_uO8C",
+      "name": "Biological Network Analysis & Protein Kinase Inhibition in Breast Cancer"
     }
   ],
   "jarvis_projects": [
@@ -70,7 +75,7 @@
       "name": "Credit Scoring Decision System"
     },
     {
-      "description": "Benchmarked feedforward, LSTM, CNN, and transfer-learning models against a systematic desk's incumbent signal across 48 S\u0026P 500 stocks and 259,073 rows, then charged realistic 10bps trading costs, which inverted the ranking: the incumbent's 159x annual turnover turned a positive gross Sharpe into -0.30 net. Proved leak-freedom by recomputation rather than assertion, fixed an honest accuracy ceiling from return autocorrelation before modeling, and recommended iterating rather than deploying because the best network still lost to equal-weight buy-and-hold.",
+      "description": "Benchmarked feedforward, LSTM, CNN, and transfer-learning models against a systematic desk's incumbent signal across 48 S&P 500 stocks and 259,073 rows, then charged realistic 10bps trading costs, which inverted the ranking: the incumbent's 159x annual turnover turned a positive gross Sharpe into -0.30 net. Proved leak-freedom by recomputation rather than assertion, fixed an honest accuracy ceiling from return autocorrelation before modeling, and recommended iterating rather than deploying because the best network still lost to equal-weight buy-and-hold.",
       "git_url": "/machine_learning/equity_signal",
       "name": "Deep Learning Equity Signal"
     },
@@ -100,6 +105,8 @@
     {
       "bullets": [
         "AWS Certified Solutions Architect - Associate",
+        "AWS Certified Cloud Practitioner",
+        "Microsoft Certified: Fabric Data Engineer Associate (DP-700)",
         "Oracle Cloud Infrastructure 2025 Certified Application Integration Professional"
       ],
       "title": "Certifications"
@@ -140,45 +147,50 @@
   ],
   "skills": {
     "competent": [
+      "RAG Pipelines (chunking, embeddings, vector search, reranking, citations)",
+      "Agentic AI (tool/function calling, orchestration, MCP, human-in-the-loop)",
+      "LangChain / LangGraph",
+      "LLM Evaluation (groundedness, hallucination, task completion, cost/latency)",
+      "AI Observability (OpenTelemetry GenAI, tracing, guardrails, audit logging)",
+      "Foundation Model APIs (Azure OpenAI, Vertex AI, Gemini, Ollama)",
+      "AWS (EC2, S3, VPC, IAM, least-privilege access)",
+      "Azure (Databricks, ADF, AKS, Key Vault, managed identities)",
+      "Terraform / Infrastructure as Code",
       "PyTorch",
       "Deep Learning (CNN, LSTM, Transfer Learning)",
-      "SHAP / Model Explainability",
       "MLflow",
-      "Model Deployment \u0026 Drift Detection",
-      "Delta Lake / Medallion Architecture",
-      "Apache Airflow",
-      "CI/CD (GitHub Actions)",
-      "System Design \u0026 UML",
-      "REST APIs / Microservices",
-      "AWS (EC2, S3, VPC, IAM)",
-      "GCP (Vertex AI, BigQuery, GKE)"
+      "Model Deployment & Drift Detection",
+      "scikit-learn"
     ],
     "familiar": [
-      "Power BI / DAX",
-      "RAG Pipelines (LangChain, LangGraph, LLM Evals)",
-      "Kubernetes (AKS/GKE)",
-      "Terraform",
+      "Kubernetes (EKS/AKS/GKE)",
+      "Vector Stores (pgvector, FAISS)",
+      "Prompt Injection & Data Leakage Defence",
+      "GCP (Vertex AI, BigQuery, GKE)",
+      "SHAP / Model Explainability",
+      "Delta Lake / Medallion Architecture",
+      "Apache Airflow",
       "ArgoCD (GitOps)",
-      "Scala",
       "Apache Kafka",
       "Snowflake",
-      "MongoDB / Cassandra",
-      "Prometheus / Grafana"
+      "Prometheus / Grafana",
+      "Power BI / DAX",
+      "Scala"
     ],
     "proficient": [
-      "Python (OOP)",
+      "Python (OOP, REST APIs, packaging)",
       "SQL",
+      "Linux/Bash",
+      "Docker",
+      "Git",
+      "REST APIs / Microservices",
       "PySpark / Apache Spark",
       "Databricks",
       "Pandas / NumPy",
-      "scikit-learn",
       "ETL/ELT Pipeline Design",
-      "Azure (Databricks, ADF, AKS)",
       "PostgreSQL",
-      "Docker",
-      "Git",
-      "Linux/Bash"
+      "CI/CD (GitHub Actions)"
     ]
   },
-  "summary": "Machine Learning Engineer at Jarvis Consulting with over four years of experience building data and ML systems on Databricks, Azure, and GCP. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows that turned large-scale workforce data into labour market research, along with the dashboards analysts and clients read it through. Outside of client work I publish the tooling I wish existed: agentnorm, a zero-dependency behavioural monitor for AI agents, and a Buhlmann credibility study across roughly 40,000 agent episodes, both shipped on PyPI. My deep learning capstones turn models into decisions, pricing a credit scorecard at 578M dollars of net benefit and showing how an equity signal's ranking inverts once realistic trading costs are charged. What interests me most is the part after the model works: calibration, leakage, drift, and pipelines that stay honest in production."
+  "summary": "Machine Learning Engineer at Jarvis Consulting with over four years building data and ML systems in production, now focused on generative AI: retrieval augmented generation, agentic workflows, and the evaluation and observability that make them supportable. I build complete RAG pipelines rather than wiring up a chatbot, from ingestion and chunking through embeddings, retrieval, reranking and grounded answers with citations, and on the agentic side I work with tool and function calling, Model Context Protocol, LangChain and LangGraph, human in the loop controls and safe failure handling across AWS, Azure and GCP. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows behind their labour market research. Outside client work I publish the tooling I wish existed: agentnorm, a zero dependency runtime behavioural monitor for AI agents aligned to OpenTelemetry GenAI conventions, and freeboard, a privacy preserving risk SDK with tamper evident record keeping aligned to EU AI Act Article 12, both shipped on PyPI. What interests me most is the part after the model works: grounding, leakage, drift, least privilege access and pipelines that stay honest in production."
 }

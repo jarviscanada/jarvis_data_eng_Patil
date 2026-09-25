@@ -1,14 +1,14 @@
 # Kaustubh Patil . Jarvis Consulting
 
-Machine Learning Engineer at Jarvis Consulting with over four years of experience building data and ML systems on Databricks, Azure, and GCP. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows that turned large-scale workforce data into labour market research, along with the dashboards analysts and clients read it through. Outside of client work I publish the tooling I wish existed: agentnorm, a zero-dependency behavioural monitor for AI agents, and a Buhlmann credibility study across roughly 40,000 agent episodes, both shipped on PyPI. My deep learning capstones turn models into decisions, pricing a credit scorecard at 578M dollars of net benefit and showing how an equity signal's ranking inverts once realistic trading costs are charged. What interests me most is the part after the model works: calibration, leakage, drift, and pipelines that stay honest in production.
+Machine Learning Engineer at Jarvis Consulting with over four years building data and ML systems in production, now focused on generative AI: retrieval augmented generation, agentic workflows, and the evaluation and observability that make them supportable. I build complete RAG pipelines rather than wiring up a chatbot, from ingestion and chunking through embeddings, retrieval, reranking and grounded answers with citations, and on the agentic side I work with tool and function calling, Model Context Protocol, LangChain and LangGraph, human in the loop controls and safe failure handling across AWS, Azure and GCP. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows behind their labour market research. Outside client work I publish the tooling I wish existed: agentnorm, a zero dependency runtime behavioural monitor for AI agents aligned to OpenTelemetry GenAI conventions, and freeboard, a privacy preserving risk SDK with tamper evident record keeping aligned to EU AI Act Article 12, both shipped on PyPI. What interests me most is the part after the model works: grounding, leakage, drift, least privilege access and pipelines that stay honest in production.
 
 ## Skills
 
-**Proficient:** Python (OOP), SQL, PySpark / Apache Spark, Databricks, Pandas / NumPy, scikit-learn, ETL/ELT Pipeline Design, Azure (Databricks, ADF, AKS), PostgreSQL, Docker, Git, Linux/Bash
+**Proficient:** Python (OOP, REST APIs, packaging), SQL, Linux/Bash, Docker, Git, REST APIs / Microservices, PySpark / Apache Spark, Databricks, Pandas / NumPy, ETL/ELT Pipeline Design, PostgreSQL, CI/CD (GitHub Actions)
 
-**Competent:** PyTorch, Deep Learning (CNN, LSTM, Transfer Learning), SHAP / Model Explainability, MLflow, Model Deployment & Drift Detection, Delta Lake / Medallion Architecture, Apache Airflow, CI/CD (GitHub Actions), System Design & UML, REST APIs / Microservices, AWS (EC2, S3, VPC, IAM), GCP (Vertex AI, BigQuery, GKE)
+**Competent:** RAG Pipelines (chunking, embeddings, vector search, reranking, citations), Agentic AI (tool/function calling, orchestration, MCP, human-in-the-loop), LangChain / LangGraph, LLM Evaluation (groundedness, hallucination, task completion, cost/latency), AI Observability (OpenTelemetry GenAI, tracing, guardrails, audit logging), Foundation Model APIs (Azure OpenAI, Vertex AI, Gemini, Ollama), AWS (EC2, S3, VPC, IAM, least-privilege access), Azure (Databricks, ADF, AKS, Key Vault, managed identities), Terraform / Infrastructure as Code, PyTorch, Deep Learning (CNN, LSTM, Transfer Learning), MLflow, Model Deployment & Drift Detection, scikit-learn
 
-**Familiar:** Power BI / DAX, RAG Pipelines (LangChain, LangGraph, LLM Evals), Kubernetes (AKS/GKE), Terraform, ArgoCD (GitOps), Scala, Apache Kafka, Snowflake, MongoDB / Cassandra, Prometheus / Grafana
+**Familiar:** Kubernetes (EKS/AKS/GKE), Vector Stores (pgvector, FAISS), Prompt Injection & Data Leakage Defence, GCP (Vertex AI, BigQuery, GKE), SHAP / Model Explainability, Delta Lake / Medallion Architecture, Apache Airflow, ArgoCD (GitOps), Apache Kafka, Snowflake, Prometheus / Grafana, Power BI / DAX, Scala
 
 ## Jarvis Projects
 
@@ -37,6 +37,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](htt
 
 
 ## Highlighted Projects
+**Sentinel: Agentic IT Operations on a Live Multi-Cloud Estate** [[GitHub](https://github.com/kaustubhspatil/sentinel)]: Built and operate an agentic IT operations platform on a real multi-cloud estate rather than a simulator. An ontology-driven knowledge graph is exposed to agents as Model Context Protocol tools, with multi-hop retrieval augmented generation over the estate and runtime behavioural monitoring on the agents themselves. Routes across several foundation model providers with cost-aware selection under a fixed budget, and enforces permissions at the tool layer rather than trusting the prompt. The monitoring layer caught a real cross-tenant data disclosure that had passed every unit test, which is why it was extracted and published as agentnorm.
+
 **Agent Credibility: Actuarial Pricing for AI Agent Deployments** [[GitHub](https://github.com/kaustubhspatil/agent-credibility)]: Tested whether a pooled Buhlmann credibility prior can price AI agent deployments, across three corpora and roughly 40,000 episodes, with 192 tests and every negative control reported. Replicated the governing constant K on two independent corpora sharing no code path (7.6 and 7.0), establishing it as a property of the agent's role rather than an artifact of one dataset. Shipped the result as a PyPI SDK talking to a live bureau service over TLS, and published a downward correction to an early headline finding when a larger corpus contradicted it.
 
 **agentnorm: Behavioural Monitoring for AI Agents** [[GitHub](https://github.com/kaustubhspatil/agentnorm)]: Published a zero-dependency Python package that monitors how an AI agent behaves at runtime, as opposed to grading offline what it said. Records tool calls, scopes, and result sizes, then flags runs that do not resemble prior benign ones with an explainable verdict. Designed the API to wrap existing tool callables without restructuring or context propagation, and made the anomaly detection cold-start safe so a new agent version is usable before it has history.
@@ -67,5 +69,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](htt
 
 ## Miscellaneous
 - AWS Certified Solutions Architect - Associate
+- AWS Certified Cloud Practitioner
+- Microsoft Certified: Fabric Data Engineer Associate (DP-700)
 - Oracle Cloud Infrastructure 2025 Certified Application Integration Professional
 - Author of agentnorm and freeboard, two open-source Python packages published on PyPI
+- I watch speedruns of games I have never played. Optimization as a spectator sport.
