@@ -128,19 +128,19 @@
     },
     {
       "company": "Gartner (Talent Neuron)",
-      "description": "Developed ETL workflows on Databricks and Microsoft Azure using Python and Spark, turning large-scale raw workforce datasets into the clean, queryable tables behind Talent Neuron's labour market research. Built and maintained the extraction and transformation pipelines feeding recurring research deliverables, and designed the dashboards and reporting layer that made skills demand, talent supply, and hiring trends legible to analysts and clients. Supported model retraining and scheduled orchestration for the research products, and worked directly with analysts to turn open research questions into reproducible datasets they could interrogate themselves.",
+      "description": "Developed ETL workflows on Databricks and AWS using Python and Spark, turning large-scale raw workforce datasets into the clean, queryable tables behind Talent Neuron's labour market research. Built and maintained the extraction and transformation pipelines feeding recurring research deliverables, and designed the dashboards and reporting layer that made skills demand, talent supply, and hiring trends legible to analysts and clients. Supported model retraining and scheduled orchestration for the research products, and worked directly with analysts to turn open research questions into reproducible datasets they could interrogate themselves.",
       "duration": "Sept 2023 - Dec 2025",
       "title": "Data and Research Analyst"
     },
     {
       "company": "IPLIX Media",
-      "description": "Built and maintained real-time analytics pipelines in Python and SQL to process high-volume YouTube and social media data, and delivered the Power BI dashboards and reporting layer on top of them. Designed data-processing workflows that extracted quantitative insights from unstructured content to support creator and campaign decisions. Implemented automated unit and integration tests inside CI/CD pipelines so data regressions were caught before release.",
+      "description": "Built and maintained real-time analytics pipelines on AWS in Python and SQL to process high-volume YouTube and social media data, and delivered the Power BI dashboards and reporting layer on top of them. Designed data-processing workflows that extracted quantitative insights from unstructured content to support creator and campaign decisions. Implemented automated unit and integration tests inside CI/CD pipelines so data regressions were caught before release.",
       "duration": "Feb 2022 - Dec 2022",
       "title": "Data Engineer"
     },
     {
       "company": "Mosil Lubricant",
-      "description": "Designed and implemented automated ETL pipelines in Python and SQL that consolidated disparate company data into a centralized warehouse, replacing manual consolidation work. Engineered SQL queries for data mining and analytics, establishing reliable and reusable datasets for downstream applications. Built executive-facing Power BI dashboards covering cost, supply, and operational KPIs, and partnered with business stakeholders to translate reporting requirements into maintainable data models.",
+      "description": "Designed and implemented automated ETL pipelines on AWS in Python and SQL that consolidated disparate company data into a centralized warehouse, replacing manual consolidation work. Engineered SQL queries for data mining and analytics, establishing reliable and reusable datasets for downstream applications. Built executive-facing Power BI dashboards covering cost, supply, and operational KPIs, and partnered with business stakeholders to translate reporting requirements into maintainable data models.",
       "duration": "Jul 2021 - Jan 2022",
       "title": "Data Engineer"
     }
@@ -153,7 +153,6 @@
       "LLM Evaluation (groundedness, hallucination, task completion, cost/latency)",
       "AI Observability (OpenTelemetry GenAI, tracing, guardrails, audit logging)",
       "Foundation Model APIs (Azure OpenAI, Vertex AI, Gemini, Ollama)",
-      "AWS (EC2, S3, VPC, IAM, least-privilege access)",
       "Azure (Databricks, ADF, AKS, Key Vault, managed identities)",
       "Terraform / Infrastructure as Code",
       "PyTorch",
@@ -189,8 +188,9 @@
       "Pandas / NumPy",
       "ETL/ELT Pipeline Design",
       "PostgreSQL",
-      "CI/CD (GitHub Actions)"
+      "CI/CD (GitHub Actions)",
+      "AWS (EC2, S3, VPC, IAM, least-privilege access)"
     ]
   },
-  "summary": "Machine Learning Engineer at Jarvis Consulting with over four years building data and ML systems in production, now focused on generative AI: retrieval augmented generation, agentic workflows, and the evaluation and observability that make them supportable. I build complete RAG pipelines rather than wiring up a chatbot, from ingestion and chunking through embeddings, retrieval, reranking and grounded answers with citations, and on the agentic side I work with tool and function calling, Model Context Protocol, LangChain and LangGraph, human in the loop controls and safe failure handling across AWS, Azure and GCP. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows behind their labour market research. Outside client work I publish the tooling I wish existed: agentnorm, a zero dependency runtime behavioural monitor for AI agents aligned to OpenTelemetry GenAI conventions, and freeboard, a privacy preserving risk SDK with tamper evident record keeping aligned to EU AI Act Article 12, both shipped on PyPI. What interests me most is the part after the model works: grounding, leakage, drift, least privilege access and pipelines that stay honest in production."
+  "summary": "Machine Learning Engineer at Jarvis Consulting with over four years building data and ML systems in production, now focused on generative AI: retrieval augmented generation, agentic workflows, and the evaluation and observability that make them supportable. I build complete RAG pipelines rather than wiring up a chatbot, from ingestion and chunking through embeddings, retrieval, reranking and grounded answers with citations, and on the agentic side I work with tool and function calling, Model Context Protocol, LangChain and LangGraph, human in the loop controls and safe failure handling across AWS, Azure and GCP. My data engineering work from Mosil through Gartner ran on AWS. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows behind their labour market research. Outside client work I publish the tooling I wish existed: agentnorm, a zero dependency runtime behavioural monitor for AI agents aligned to OpenTelemetry GenAI conventions, and freeboard, a privacy preserving risk SDK with tamper evident record keeping aligned to EU AI Act Article 12, both shipped on PyPI. What interests me most is the part after the model works: grounding, leakage, drift, least privilege access and pipelines that stay honest in production."
 }
