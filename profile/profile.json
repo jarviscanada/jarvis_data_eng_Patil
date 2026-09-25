@@ -33,7 +33,7 @@
       "name": "Sentinel: Agentic IT Operations on a Live Multi-Cloud Estate"
     },
     {
-      "description": "Tested whether a pooled Buhlmann credibility prior can price AI agent deployments, across three corpora and roughly 40,000 episodes, with 192 tests and every negative control reported. Replicated the governing constant K on two independent corpora sharing no code path (7.6 and 7.0), establishing it as a property of the agent's role rather than an artifact of one dataset. Shipped the result as a PyPI SDK talking to a live bureau service over TLS, and published a downward correction to an early headline finding when a larger corpus contradicted it.",
+      "description": "Tested whether a pooled Buhlmann credibility prior can price AI agent deployments, across 3 corpora and roughly 40,000 episodes, with 192 tests and every negative control reported. Replicated the governing constant K on 2 independent corpora sharing no code path (7.6 and 7.0), establishing it as a property of the agent's role rather than an artifact of 1 dataset. Shipped the result as a PyPI SDK talking to a live bureau service over TLS, and published a downward correction to an early headline finding when a larger corpus contradicted it.",
       "git_url": "https://github.com/kaustubhspatil/agent-credibility",
       "name": "Agent Credibility: Actuarial Pricing for AI Agent Deployments"
     },
@@ -60,12 +60,12 @@
       "name": "SQL Data Analytics"
     },
     {
-      "description": "Delivered two end-to-end Python analytics projects. The first profiles the U.S. CFPB Consumer Complaint Database (1.28M complaints, 5,275 firms, 2011-2019) with Pandas, engineering time-series, lag, and company-tier features, then reports market concentration, product mix shift, and a multi-dimension accountability scorecard through Plotly. The second loads London Gift Shop retail transactions into a PostgreSQL warehouse and analyzes monthly sales, cancellations, customer lifecycle, and RFM segmentation in Jupyter, publishing the findings as an HTML dashboard for stakeholders.",
+      "description": "Delivered 2 end-to-end Python analytics projects. The first profiles the U.S. CFPB Consumer Complaint Database (1.28M complaints, 5,275 firms, 2011-2019) with Pandas, engineering time-series, lag, and company-tier features, then reports market concentration, product mix shift, and a multi-dimension accountability scorecard through Plotly. The second loads London Gift Shop retail transactions into a PostgreSQL warehouse and analyzes monthly sales, cancellations, customer lifecycle, and RFM segmentation in Jupyter, publishing the findings as an HTML dashboard for stakeholders.",
       "git_url": "/python_data_analytics",
       "name": "Python Data Analytics"
     },
     {
-      "description": "Built two Databricks Lakehouse pipelines on the Bronze, Silver, and Gold medallion pattern using PySpark and Delta Lake. The fraud platform ingests transaction, card, user, and label data from SQL Server and Azure Storage, standardizes and enriches it, and publishes Gold fraud KPIs alongside a Random Forest credit-risk classifier. The market platform ingests the Twelve Data API through a Delta Live Tables pipeline, applies short, medium, and long window trend analysis, and governs the published tables with Unity Catalog for dashboarding.",
+      "description": "Built 2 Databricks Lakehouse pipelines on the Bronze, Silver, and Gold medallion pattern using PySpark and Delta Lake. The fraud platform ingests transaction, card, user, and label data from SQL Server and Azure Storage, standardizes and enriches it, and publishes Gold fraud KPIs alongside a Random Forest credit-risk classifier. The market platform ingests the Twelve Data API through a Delta Live Tables pipeline, applies short, medium, and long window trend analysis, and governs the published tables with Unity Catalog for dashboarding.",
       "git_url": "/Databricks_Spark",
       "name": "Databricks Spark Analytics"
     },
@@ -113,7 +113,7 @@
     },
     {
       "bullets": [
-        "Author of agentnorm and freeboard, two open-source Python packages published on PyPI",
+        "Author of agentnorm and freeboard, 2 open-source Python packages published on PyPI",
         "I watch speedruns of games I have never played. Optimization as a spectator sport."
       ],
       "title": "Activities/Interests"
@@ -192,5 +192,5 @@
       "AWS (EC2, S3, VPC, IAM, least-privilege access)"
     ]
   },
-  "summary": "Machine Learning Engineer at Jarvis Consulting with over four years building data and ML systems in production, now focused on generative AI: retrieval augmented generation, agentic workflows, and the evaluation and observability that make them supportable. I build complete RAG pipelines rather than wiring up a chatbot, from ingestion and chunking through embeddings, retrieval, reranking and grounded answers with citations, and on the agentic side I work with tool and function calling, Model Context Protocol, LangChain and LangGraph, human in the loop controls and safe failure handling across AWS, Azure and GCP. My data engineering work from Mosil through Gartner ran on AWS. At Gartner (Talent Neuron) I built the Databricks and PySpark ETL workflows behind their labour market research. Outside client work I publish the tooling I wish existed: agentnorm, a zero dependency runtime behavioural monitor for AI agents aligned to OpenTelemetry GenAI conventions, and freeboard, a privacy preserving risk SDK with tamper evident record keeping aligned to EU AI Act Article 12, both shipped on PyPI. What interests me most is the part after the model works: grounding, leakage, drift, least privilege access and pipelines that stay honest in production."
+  "summary": "I am a Machine Learning Engineer at Jarvis Consulting, with over 4 years spent building data and ML systems that have to keep working long after the demo. My focus now is generative AI: retrieval augmented generation, agentic systems, and the evaluation and observability that make them safe to put in front of a business. I build RAG end to end rather than wiring up a chatbot, from ingestion and chunking through embeddings, retrieval and reranking to grounded answers with citations. On the agent side I work with tool calling, Model Context Protocol, LangChain and LangGraph, human approval steps and sensible failure handling. My data engineering years, from Mosil through IPLIX to Gartner, ran on AWS, where I built the Databricks and PySpark pipelines behind Talent Neuron's labour market research. Outside client work I publish the tools I wanted and could not find: agentnorm, which watches how an AI agent behaves while it runs, and freeboard, which measures how much safety margin a deployment has left without ever seeing its data. Both are on PyPI. What holds my attention is the part after the model works: grounding, leakage, drift, least privilege access, and pipelines that stay honest when nobody is watching."
 }
