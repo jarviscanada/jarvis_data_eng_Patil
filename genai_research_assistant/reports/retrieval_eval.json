@@ -1,0 +1,1475 @@
+{
+ "k": 3,
+ "scope_filter": true,
+ "queries": 15,
+ "results": {
+  "minilm/topk": {
+   "precision_at_k": 0.489,
+   "hit_at_1": 0.6,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p9 General Development Of The Business",
+      "RBC 2025 p223 Controls and procedures",
+      "RBC 2025 p419 Market risk"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p45 Financial Liabilities",
+      "TD 2024 p31 Strategic Objectives, Accomplishments An",
+      "TD 2024 p65 Credit Risk"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p150 Risk Management",
+      "BMO 2025 p53 Credit Risk Exposure"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p177 Market risk linkage to Consolidated Stat",
+      "BNS 2025 p5 (front matter)",
+      "BNS 2025 p163 Risk management"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p105 Climate risk",
+      "CIBC 2025 p159 Operational risk management approach"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p135 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p127 Market risk"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p8 Economic Summary And Outlook",
+      "TD 2025 p81 How Td Manages Market Risk In Trading Ac"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p179 Management'S Discussion And Analysis",
+      "BMO 2024 p181 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p145 Credit Risk",
+      "BNS 2024 p147 Credit Risk",
+      "BNS 2024 p29 Financial Results: 2024 vs 2023"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p157 Liquidity risk",
+      "CIBC 2024 p11 Risk Factors"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p100 Overview",
+      "RBC 2025 p169 Operational risk framework",
+      "RBC 2025 p167 Operational risk framework"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p7 Dividends per Share for the Bank (Octobe",
+      "TD 2025 p7 Dividends per Share for the Bank (Octobe"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p72 Liquidity and Funding Risk",
+      "BMO 2025 p53 Credit Risk Exposure"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p41 Notes to the 2025 Consolidated Financial",
+      "BNS 2025 p103 Dividends"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p11 General Development Of The Business",
+      "CIBC 2025 p83 Accounting for financial instruments"
+     ]
+    }
+   ]
+  },
+  "minilm/mmr": {
+   "precision_at_k": 0.311,
+   "hit_at_1": 0.6,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p9 General Development Of The Business",
+      "RBC 2025 p419 Market risk",
+      "RBC 2025 p223 Controls and procedures"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p45 Financial Liabilities",
+      "TD 2024 p65 Credit Risk",
+      "TD 2024 p31 Strategic Objectives, Accomplishments An"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p53 Credit Risk Exposure",
+      "BMO 2025 p72 Liquidity and Funding Risk"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p177 Market risk linkage to Consolidated Stat",
+      "BNS 2025 p103 Dividends",
+      "BNS 2025 p159 Overview of loan portfolio"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p159 Operational risk management approach",
+      "CIBC 2025 p1 (front matter)"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p412 Market risk",
+      "RBC 2024 p197 Regulatory capital and TLAC available | "
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p8 Economic Summary And Outlook",
+      "TD 2025 p81 How Td Manages Market Risk In Trading Ac"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p137 Dated Fin",
+      "BMO 2024 p177 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p145 Credit Risk",
+      "BNS 2024 p173 Liquidity Risk",
+      "BNS 2024 p29 Financial Results: 2024 vs 2023"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p157 Credit risk",
+      "CIBC 2024 p157 Liquidity risk"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p100 Overview",
+      "RBC 2025 p411 Market risk",
+      "RBC 2025 p169 Operational risk framework"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p7 Dividends per Share for the Bank (Octobe",
+      "TD 2025 p6 Description Of The Business"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p72 Liquidity and Funding Risk",
+      "BMO 2025 p135 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p103 Dividends",
+      "BNS 2025 p41 Notes to the 2025 Consolidated Financial"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p83 Accounting for financial instruments",
+      "CIBC 2025 p11 General Development Of The Business"
+     ]
+    }
+   ]
+  },
+  "minilm/hybrid": {
+   "precision_at_k": 0.622,
+   "hit_at_1": 0.733,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p63 Business segment results",
+      "RBC 2025 p90 Financial condition",
+      "RBC 2025 p269 Consolidated Statements of Cash Flows"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p17 Provision For Credit Losses",
+      "TD 2024 p12 How The Bank Reports",
+      "TD 2024 p8 Report Of Independent Registered Public "
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p11 Management'S Discussion And Analysis",
+      "BMO 2025 p157 Regulatory Developments"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p103 Dividends",
+      "BNS 2025 p211 Regulatory Developments",
+      "BNS 2025 p159 Risk management"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p159 Environmental and social risk",
+      "CIBC 2025 p159 Risk management"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p135 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p127 Market risk"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p35 Operating Environment And Outlook",
+      "TD 2025 p24 Operating Environment And Outlook"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p179 Management'S Discussion And Analysis",
+      "BMO 2024 p181 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p145 Credit Risk",
+      "BNS 2024 p147 Credit Risk",
+      "BNS 2024 p41 Group Financial Performance"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p157 Liquidity risk",
+      "CIBC 2024 p17 Capital Structure"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p98 Overview",
+      "RBC 2025 p100 Overview",
+      "RBC 2025 p169 Operational risk framework"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p8 Dividends per Share for the Bank (Octobe",
+      "TD 2025 p3 Annual Information Form"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p111 Risk Management Framework",
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p173 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p41 Notes to the 2025 Consolidated Financial",
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p109 Dividends on shares"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p11 General Development Of The Business",
+      "CIBC 2025 p13 Dividends"
+     ]
+    }
+   ]
+  },
+  "minilm/rerank": {
+   "precision_at_k": 0.733,
+   "hit_at_1": 0.733,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p223 Controls and procedures",
+      "RBC 2025 p23 Business segment results",
+      "RBC 2025 p325 Credit risk exposure by internal risk ra"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p17 Provision For Credit Losses",
+      "TD 2024 p52 Provision For Credit Losses",
+      "TD 2024 p51 Provision For Credit Losses"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p93 Regulatory Capital Developments",
+      "BMO 2025 p95 Regulatory Capital and TLAC"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p103 Dividends",
+      "BNS 2025 p177 Market risk linkage to Consolidated Stat",
+      "BNS 2025 p139 Dividends on shares"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p105 Climate risk",
+      "CIBC 2025 p105 Climate risk"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p135 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p129 Market risk measures* | Table 50"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p58 Top And Emerging Risks",
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p35 Operating Environment And Outlook"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p179 Management'S Discussion And Analysis",
+      "BMO 2024 p121 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p145 Credit Risk",
+      "BNS 2024 p41 Group Financial Performance",
+      "BNS 2024 p33 Group Financial Performance"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p151 Liquidity risk",
+      "CIBC 2024 p13 General Development Of The Business"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p169 Operational risk framework",
+      "RBC 2025 p171 Operational risk framework",
+      "RBC 2025 p175 Operational risk framework"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p3 Annual Information Form",
+      "TD 2025 p7 Dividends per Share for the Bank (Octobe"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p183 Management'S Discussion And Analysis",
+      "BMO 2025 p173 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p107 Dividends on shares",
+      "BNS 2025 p111 Dividends on shares"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p11 General Development Of The Business",
+      "CIBC 2025 p13 Dividends"
+     ]
+    }
+   ]
+  },
+  "bge-small/topk": {
+   "precision_at_k": 0.422,
+   "hit_at_1": 0.467,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p9 General Development Of The Business",
+      "RBC 2025 p419 Market risk",
+      "RBC 2025 p30 Business segment results"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p50 Provision For Credit Losses",
+      "TD 2024 p87 Credit Risk",
+      "TD 2024 p87 Credit Risk"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p7 General Development Of The Business",
+      "BMO 2025 p47 Consolidated Financial Statements"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p29 Notes to the 2025 Consolidated Financial",
+      "BNS 2025 p5 (front matter)",
+      "BNS 2025 p159 Risk management"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p161 Risk management",
+      "CIBC 2025 p105 Climate risk"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p127 Market risk",
+      "RBC 2024 p9 General Development Of The Business",
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p35 Operating Environment And Outlook",
+      "TD 2025 p4 Business Segment Analysis"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p179 Management'S Discussion And Analysis",
+      "BMO 2024 p181 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p29 Financial Results: 2024 vs 2023",
+      "BNS 2024 p41 Group Financial Performance",
+      "BNS 2024 p145 Credit Risk"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p61 Overview",
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p157 Liquidity risk"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 0.6666666666666666,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p104 Top and emerging risks",
+      "RBC 2025 p98 Overview",
+      "RBC 2025 p100 Overview"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p3 Annual Information Form",
+      "TD 2025 p6 Description Of The Business"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p173 Management'S Discussion And Analysis",
+      "BMO 2025 p117 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p29 Notes to the 2025 Consolidated Financial",
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p103 Dividends on shares"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p83 Accounting for financial instruments",
+      "CIBC 2025 p59 Accounting for financial instruments"
+     ]
+    }
+   ]
+  },
+  "bge-small/mmr": {
+   "precision_at_k": 0.311,
+   "hit_at_1": 0.467,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p9 General Development Of The Business",
+      "RBC 2025 p419 Market risk",
+      "RBC 2025 p329 Credit risk exposure by internal risk ra"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p50 Provision For Credit Losses",
+      "TD 2024 p65 Credit Risk",
+      "TD 2024 p87 Credit Risk"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p7 General Development Of The Business",
+      "BMO 2025 p138 Risk Management"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p29 Notes to the 2025 Consolidated Financial",
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p177 Market risk linkage to Consolidated Stat"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p161 Risk management",
+      "CIBC 2025 p105 Climate risk"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p127 Market risk",
+      "RBC 2024 p9 General Development Of The Business",
+      "RBC 2024 p171 Strategic risk"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p6 Description Of The Business",
+      "TD 2025 p8 Economic Summary And Outlook"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p1 (front matter)",
+      "BMO 2024 p193 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p29 Financial Results: 2024 vs 2023",
+      "BNS 2024 p173 Liquidity Risk",
+      "BNS 2024 p145 Credit Risk"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p61 Overview",
+      "CIBC 2024 p17 Capital Structure",
+      "CIBC 2024 p13 General Development Of The Business"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p104 Top and emerging risks",
+      "RBC 2025 p167 Operational risk framework",
+      "RBC 2025 p9 General Development Of The Business"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p3 Annual Information Form",
+      "TD 2025 p7 Dividends per Share for the Bank (Octobe"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p173 Management'S Discussion And Analysis",
+      "BMO 2025 p149 Liquidity and Funding Risk Management"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p29 Notes to the 2025 Consolidated Financial",
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p153 Risk management"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p83 Accounting for financial instruments",
+      "CIBC 2025 p59 Accounting for financial instruments"
+     ]
+    }
+   ]
+  },
+  "bge-small/hybrid": {
+   "precision_at_k": 0.556,
+   "hit_at_1": 0.733,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p341 Credit risk exposure by internal risk ra",
+      "RBC 2025 p413 Market risk",
+      "RBC 2025 p269 Consolidated Statements of Cash Flows"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p52 Provision For Credit Losses",
+      "TD 2024 p87 Credit Risk",
+      "TD 2024 p87 Credit Risk"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p93 Regulatory Capital Developments",
+      "BMO 2025 p7 General Development Of The Business"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p159 Risk management",
+      "BNS 2025 p5 (front matter)",
+      "BNS 2025 p57 Key Performance Indicators For All Busin"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p161 Risk management",
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p159 Risk management"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p127 Market risk",
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p135 Market risk - IRRBB measures* | Table 51"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p6 Description Of The Business",
+      "TD 2025 p24 Operating Environment And Outlook"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p179 Management'S Discussion And Analysis",
+      "BMO 2024 p181 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p145 Credit Risk",
+      "BNS 2024 p41 Group Financial Performance",
+      "BNS 2024 p33 Group Financial Performance"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p17 Capital Structure",
+      "CIBC 2024 p157 Liquidity risk"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p98 Overview",
+      "RBC 2025 p169 Operational risk framework",
+      "RBC 2025 p100 Overview"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p3 Annual Information Form",
+      "TD 2025 p6 Description Of The Business"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p173 Management'S Discussion And Analysis",
+      "BMO 2025 p149 Liquidity and Funding Risk Management",
+      "BMO 2025 p111 Risk Management Framework"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p103 Dividends on shares",
+      "BNS 2025 p41 Notes to the 2025 Consolidated Financial"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p5 (front matter)",
+      "CIBC 2025 p11 Description Of The Business"
+     ]
+    }
+   ]
+  },
+  "bge-small/rerank": {
+   "precision_at_k": 0.622,
+   "hit_at_1": 0.733,
+   "right_filing": 1.0,
+   "per_query": [
+    {
+     "query": "What was RBC's provision for credit losses in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p319 Consolidated Statements of Cash Flows",
+      "RBC 2025 p90 Financial condition",
+      "RBC 2025 p9 General Development Of The Business"
+     ]
+    },
+    {
+     "query": "How much did TD set aside for credit losses in 2024?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2024 p17 Provision For Credit Losses",
+      "TD 2024 p49 Provision For Credit Losses",
+      "TD 2024 p43 Concentration Of Credit Risk"
+     ]
+    },
+    {
+     "query": "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p13 Management'S Discussion And Analysis",
+      "BMO 2025 p89 Regulatory Capital Requirements",
+      "BMO 2025 p93 Regulatory Capital Developments"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's liquidity coverage ratio in 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p103 Dividends",
+      "BNS 2025 p177 Market risk linkage to Consolidated Stat",
+      "BNS 2025 p139 Dividends on shares"
+     ]
+    },
+    {
+     "query": "How does CIBC describe climate-related risk in its 2025 MD&A?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p103 Climate risk",
+      "CIBC 2025 p105 Climate risk",
+      "CIBC 2025 p105 Climate risk"
+     ]
+    },
+    {
+     "query": "What market risk measures, such as VaR, did RBC report for 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2024 p135 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p137 Market risk - IRRBB measures* | Table 51",
+      "RBC 2024 p129 Market risk measures* | Table 50"
+     ]
+    },
+    {
+     "query": "What are TD's top and emerging risks in fiscal 2025?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p57 Top And Emerging Risks",
+      "TD 2025 p35 Operating Environment And Outlook",
+      "TD 2025 p8 Significant Events"
+     ]
+    },
+    {
+     "query": "How did BMO describe cyber and information security risk in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BMO 2024 p113 Top and Emerging Risks That May Affect F",
+      "BMO 2024 p179 Management'S Discussion And Analysis",
+      "BMO 2024 p121 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What was Scotiabank's gross impaired loans figure in 2024?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2024 p145 Credit Risk",
+      "BNS 2024 p41 Group Financial Performance",
+      "BNS 2024 p33 Group Financial Performance"
+     ]
+    },
+    {
+     "query": "What is CIBC's net stable funding ratio for 2024?",
+     "precision": 0.3333333333333333,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2024 p13 General Development Of The Business",
+      "CIBC 2024 p151 Liquidity risk",
+      "CIBC 2024 p13 General Development Of The Business"
+     ]
+    },
+    {
+     "query": "Describe RBC's operational risk management framework in 2025.",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "RBC 2025 p169 Operational risk framework",
+      "RBC 2025 p171 Operational risk framework",
+      "RBC 2025 p175 Operational risk framework"
+     ]
+    },
+    {
+     "query": "What does TD's 2025 AIF say about its dividend policy?",
+     "precision": 0.6666666666666666,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "TD 2025 p2 Annual Information Form",
+      "TD 2025 p3 Annual Information Form",
+      "TD 2025 p7 Dividends per Share for the Bank (Octobe"
+     ]
+    },
+    {
+     "query": "How does BMO manage model risk in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "BMO 2025 p105 Management'S Discussion And Analysis",
+      "BMO 2025 p183 Management'S Discussion And Analysis",
+      "BMO 2025 p169 Management'S Discussion And Analysis"
+     ]
+    },
+    {
+     "query": "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+     "precision": 1.0,
+     "hit_at_1": true,
+     "right_filing": true,
+     "top": [
+      "BNS 2025 p155 Credit risk summary",
+      "BNS 2025 p111 Dividends on shares",
+      "BNS 2025 p111 Dividends on shares"
+     ]
+    },
+    {
+     "query": "What was CIBC's leverage ratio in fiscal 2025?",
+     "precision": 0.0,
+     "hit_at_1": false,
+     "right_filing": true,
+     "top": [
+      "CIBC 2025 p13 General Development Of The Business",
+      "CIBC 2025 p77 Regulatory capital, leverage and TLAC ra",
+      "CIBC 2025 p11 General Development Of The Business"
+     ]
+    }
+   ]
+  }
+ },
+ "rules": [
+  [
+   "What was RBC's provision for credit losses in fiscal 2025?",
+   "RBC",
+   2025,
+   "provision for credit losses|\\bpcl\\b"
+  ],
+  [
+   "How much did TD set aside for credit losses in 2024?",
+   "TD",
+   2024,
+   "provision for credit losses|\\bpcl\\b"
+  ],
+  [
+   "What was BMO's Common Equity Tier 1 ratio at the end of fiscal 2025?",
+   "BMO",
+   2025,
+   "common equity tier 1|cet1"
+  ],
+  [
+   "What was Scotiabank's liquidity coverage ratio in 2025?",
+   "BNS",
+   2025,
+   "liquidity coverage ratio|\\blcr\\b"
+  ],
+  [
+   "How does CIBC describe climate-related risk in its 2025 MD&A?",
+   "CIBC",
+   2025,
+   "climate"
+  ],
+  [
+   "What market risk measures, such as VaR, did RBC report for 2024?",
+   "RBC",
+   2024,
+   "value at risk|\\bvar\\b"
+  ],
+  [
+   "What are TD's top and emerging risks in fiscal 2025?",
+   "TD",
+   2025,
+   "top and emerging|emerging risk"
+  ],
+  [
+   "How did BMO describe cyber and information security risk in 2024?",
+   "BMO",
+   2024,
+   "cyber|information security"
+  ],
+  [
+   "What was Scotiabank's gross impaired loans figure in 2024?",
+   "BNS",
+   2024,
+   "impaired loans|\\bgil\\b"
+  ],
+  [
+   "What is CIBC's net stable funding ratio for 2024?",
+   "CIBC",
+   2024,
+   "net stable funding|\\bnsfr\\b"
+  ],
+  [
+   "Describe RBC's operational risk management framework in 2025.",
+   "RBC",
+   2025,
+   "operational risk"
+  ],
+  [
+   "What does TD's 2025 AIF say about its dividend policy?",
+   "TD",
+   2025,
+   "dividend"
+  ],
+  [
+   "How does BMO manage model risk in fiscal 2025?",
+   "BMO",
+   2025,
+   "model risk"
+  ],
+  [
+   "What allowance for credit losses did Scotiabank hold at the end of 2025?",
+   "BNS",
+   2025,
+   "allowance for credit losses|\\bacl\\b"
+  ],
+  [
+   "What was CIBC's leverage ratio in fiscal 2025?",
+   "CIBC",
+   2025,
+   "leverage ratio"
+  ]
+ ]
+}
