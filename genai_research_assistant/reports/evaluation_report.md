@@ -112,6 +112,7 @@ rule that a figure the filing states is quoted, never recomputed.
 | v4, run 2 | B | 5.00 | 4.85 | 4.89 | 65% | 18 | 89% | 0.007 |
 | **v5** | **B** | **5.00** | 4.86 | 4.76 | **80%** | **19** | 89% | 0.006 |
 | Agent v4 | B | 4.93 | 4.79 | 4.79 | 85% | 20 | 100% | 0.009 |
+| v5 on OpenAI (gpt-4o-mini, judged by gpt-4o) | B | 4.60 | 4.73 | 4.53 | 70% | 19 | 89% | 0.001 |
 
 * **Set A is the cleanest test:** none of these changes were made on its questions. v5 answers 17 of 20 against 14
   for v1, finds 4 more answer keys and loses 1, and no answer was scored unfaithful.
@@ -130,6 +131,8 @@ rule that a figure the filing states is quoted, never recomputed.
   hand review had always found 9 of 9. The corrected check reads refusals in the system's own words and negation;
   every saved run was re-scored from its stored answers (`tools/rescore_edge.py`), and each file keeps the first
   check's score as `edge_behaviour_ok_strict`.
+* **OpenAI on the final design** stays behind Bedrock (faithfulness 4.60 against 5.00, answer key 70% against 80%) at a
+  sixth of the cost per query, so Bedrock stays the default. The whole OpenAI comparison cost 1.65 USD.
 * **Step 3, final:** v5 answers all 15 correctly with accurate citations; the hybrid LangChain build answers 14 (it
   quoted PCL on loans as total PCL once).
 * **Judge calibration** (`reports/judge_calibration.json`): against the human verdicts on 60 Step 3 answers, the judge
@@ -229,7 +232,7 @@ Indexing all 5.4M tokens with OpenAI cost about 0.11 USD.
   shared laptop CPU and by the rewrite call; the basic configuration answers in 1.9 s. A GPU or a hosted reranker
   would cut most of the difference.
 * The whole evaluation (both test sets, all configurations, the judge) cost 4.26 USD of Bedrock calls. The OpenAI
-  comparison (embeddings, the Step 3 questions and set B with a gpt-4o judge) cost 0.45 USD, under a hard 5 USD cap
+  comparison (embeddings, the Step 3 questions, set B twice and a second judge) cost 1.65 USD, under a hard 5 USD cap
   enforced in code before every OpenAI call.
 
 ## 7. Recommendation from the evaluation
