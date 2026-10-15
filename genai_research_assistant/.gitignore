@@ -1,0 +1,11 @@
+.env.local
+data/raw/
+data/processed/
+models/
+mlruns/
+__pycache__/
+*.pyc
+.venv/
+logs/
+mlflow.db
+mlartifacts/

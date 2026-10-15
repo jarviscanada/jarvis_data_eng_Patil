@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis Research Assistant</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2322d3ee'/%3E%3Cstop offset='1' stop-color='%237c5cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='28' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+<canvas id="stars" aria-hidden="true"></canvas>
+
+<div class="shell">
+  <aside class="side" id="side">
+    <div class="brand">
+      <div class="orb tiny"><i></i><i></i><i></i></div>
+      <div><b>Jarvis</b><small>Research Assistant</small></div>
+    </div>
+    <button id="newChat" class="new"><span class="plus">+</span> New conversation</button>
+
+    <div class="label">Signed in as</div>
+    <div class="seg" id="role">
+      <button data-v="analyst" class="on">Analyst</button>
+      <button data-v="regulatory_affairs">Regulatory Affairs</button>
+    </div>
+    <p class="note" id="roleNote">Public filings only.</p>
+
+    <div class="label">Corpus</div>
+    <div class="stats" id="stats">
+      <div><b data-count="0" id="sFilings">0</b><span>filings</span></div>
+      <div><b data-count="0" id="sChunks">0</b><span>passages</span></div>
+      <div><b id="sTokens">0</b><span>tokens</span></div>
+    </div>
+    <div class="banks" id="banks"></div>
+
+    <div class="label">Models</div>
+    <div class="models" id="models"><span class="shimmer">connecting</span></div>
+
+    <div class="label">This conversation</div>
+    <ol class="history" id="history"></ol>
+
+    <div class="foot">A first pass review tool. Every answer needs analyst review.</div>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <button id="menu" class="icon" aria-label="Menu">
+        <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="title" id="title">New conversation</div>
+      <div class="status" id="status"><span class="pulse"></span><span id="statusText">Ready</span></div>
+      <button id="theme" class="icon" aria-label="Switch theme">
+        <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      </button>
+    </header>
+
+    <section id="thread" class="thread" aria-live="polite">
+      <div id="hero" class="hero">
+        <div class="orb big" id="heroOrb"><i></i><i></i><i></i><b></b></div>
+        <h1><span class="grad">Ask the Big Five's filings.</span></h1>
+        <p>RBC, TD, BMO, Scotiabank and CIBC. Fiscal 2024 and 2025, annual and quarterly. Every answer is cited to the
+          page, and every figure is checked against its source.</p>
+        <div class="cards" id="cards"></div>
+      </div>
+    </section>
+
+    <footer class="composer">
+      <div class="box" id="box">
+        <textarea id="q" rows="1" placeholder="Ask about a bank, a risk and a period"></textarea>
+        <div class="row">
+          <div class="seg mode" id="mode">
+            <button data-v="answer" class="on" title="Fast cited answers (RAG)">Answer</button>
+            <button data-v="research" title="Multi step research with tools (agent)">Research</button>
+          </div>
+          <span class="hint"><kbd>Enter</kbd> send <kbd>Shift</kbd>+<kbd>Enter</kbd> new line <kbd>Ctrl</kbd>+<kbd>K</kbd> focus</span>
+          <button id="send" class="send" aria-label="Send">
+            <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <header>
+      <div><small id="dKicker">Evidence</small><h3 id="dTitle">Source</h3></div>
+      <button id="dClose" class="icon" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </header>
+    <div class="dmeta" id="dMeta"></div>
+    <div class="dbody" id="dBody"></div>
+    <a class="dlink" id="dLink" target="_blank" rel="noopener">Open the original filing</a>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

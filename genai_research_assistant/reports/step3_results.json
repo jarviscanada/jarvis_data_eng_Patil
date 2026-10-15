@@ -1,0 +1,4245 @@
+[
+ {
+  "id": "Q01",
+  "config": "native:basic",
+  "answer": "RBC's total provision for credit losses in fiscal 2025 was $4,362 million [S10].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0164",
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0252",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0069",
+   "RBC_2025_AR#0198",
+   "RBC_2025_AR#0364",
+   "RBC_2025_AR#0256"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:basic",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%, which translates into a surplus of approximately $103 billion.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0003",
+   "RBC_2025_Q3#0030"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:basic",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) Integrating climate-related risk considerations into existing risk management practices [S2]. (2) Using climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (3) Assessing the impact of climate-related risks across multiple Principal Risks in the bank's existing Enterprise-Wide Stress Testing program to help ensure adequate capitalization against unexpected events resulting from climate change [S2]. (4) Defining climate-related risk as categorized into transition risk (risks related to adjustment towards a low-carbon economy from policies, legislation, regulation, technological advancements, and market/customer sentiment changes) and physical risk (risks from increasing severity and frequency of climate-related extremes, longer-term gradual climate shifts, and indirect effects such as public health implications) [S5]. The bank continues to make progress in its climate-related risk management capabilities and recognizes that achieving a mature level of E&S risk management will be iterative and take time [S5].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0139",
+   "RBC_2025_AR#0145",
+   "RBC_2025_AR#0072"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 181,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:basic",
+  "answer": "TD's total provision for credit losses in Q2 2025 (for the three months ended April 30, 2025) was $1,341 million. This comprised $946 million in provision for credit losses - Stage 3 (impaired) and $395 million in provision for credit losses - Stage 1 and Stage 2 (performing).",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0194",
+   "TD_2025_Q2#0057"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:basic",
+  "answer": "TD's average liquidity coverage ratio for the quarter ended October 31, 2025 was 130%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q1#0084",
+   "TD_2025_Q2#0102",
+   "TD_2025_MDA#0189",
+   "TD_2025_Q1#0078",
+   "TD_2025_Q3#0109"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:basic",
+  "answer": "According to TD's fiscal 2025 MD&A, the Bank manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data [S3]. TD monitors, manages, and continues to enhance its ability to mitigate these risks through enterprise-wide programs and the implementation of industry-accepted technology risk and cyber threat management practices to help support rapid detection and response [S3]. The Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight, direction and guidance regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S3]. This Committee endorses actions and makes recommendations to the CEO and the ERMC as appropriate, including in some instances, supporting onward recommendations to the Risk Committee and the Board of Directors [S3]. Technology and cybersecurity programs also include resiliency planning and testing, as well as disciplined technology operations practices [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0000",
+   "TD_2025_MDA#0003"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:basic",
+  "answer": "BMO's total provision for credit losses in Q2 2025 was $1,054 million [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0059"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:basic",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0044",
+   "BMO_2025_Q3#0087"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:basic",
+  "answer": "In fiscal 2024, BMO described its climate risk exposure and management as follows:\n\nExposure: BMO recognized exposure to both physical and transition risks [S3]. Physical risks include increased frequency and intensity of weather-related events such as storms, floods, wildfires and heatwaves, as well as longer-term changes like temperature changes, rising sea levels and changes in soil productivity [S3]. Transition risks arise from the shift to a net zero carbon economy, including climate-related policy changes, technological changes, carbon-pricing mechanisms, and shifts in consumer preferences toward lower-carbon products and services [S3]. BMO may have direct exposure through ownership and operation of its businesses, and indirect exposure if customers or suppliers are affected by environmental or social factors that prevent them from meeting financial obligations [S3].\n\nManagement Framework: BMO developed a qualitative Risk Appetite Statement including E&S risks related to climate change, and enhanced a transition key risk metric measuring credit risk exposure in support of carbon-related assets as a percentage of total credit risk exposure [S2]. BMO also included a key risk indicator to quantify exposure to physical risks of flooding [S2]. Climate risk is addressed in BMO's Credit Risk Management Framework through enhanced due diligence, sector-specific financing guidelines, and an E&S Risk General Financing Guideline for wholesale lending transactions [S2]. BMO maintains a diversified lending portfolio to limit exposure to climate-sensitive industries and conducts sector-specific reviews [S2].\n\nScenario Analysis: BMO developed a climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience, evaluating transition risks and physical risks through comprehensive climate-based scenarios across portfolios and risk types [S2]. BMO also incorporated climate risk within its Internal Capital Adequacy Assessment Process (ICAAP) [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0170",
+   "BMO_2024_MDA#0168",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0056"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 189,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:basic",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0019",
+   "BNS_2025_MDA#0090",
+   "BNS_2025_MDA#0080",
+   "BNS_2025_MDA#0215",
+   "BNS_2025_FS#0159"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:basic",
+  "answer": "Scotiabank reported a Liquidity Coverage Ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0094",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0165"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:basic",
+  "answer": "Scotiabank governs model risk through the Model Risk Management Framework (MRMF) [S2]. All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by this framework [S2]. The MRMF is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, with well-defined roles and responsibilities for key stakeholders across the lifecycle [S2]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues, and is reported quarterly in the Enterprise Risk Management (ERM) Report [S2]. Additionally, the development, design, independent review and testing, and approval of models are subject to the Model Risk Management Policy [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_MDA#0116",
+   "BNS_2025_MDA#0110",
+   "BNS_2025_MDA#0111"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 133,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:basic",
+  "answer": "CIBC's provision for credit losses in the third quarter of 2025 was $559 million [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0016"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:basic",
+  "answer": "Average total VaR for the year ended October 31, 2025 was up $0.4 million from the prior year, driven primarily by changes in the equity derivatives portfolios. However, the specific dollar amount of average total VaR for fiscal 2025 is not disclosed in the provided documents.",
+  "abstained": false,
+  "confidence": "medium",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_MDA#0009",
+   "CIBC_2025_FS#0075",
+   "CIBC_2025_MDA#0059",
+   "CIBC_2025_FS#0134",
+   "CIBC_2025_MDA#0170",
+   "CIBC_2025_FS#0082",
+   "CIBC_2025_FS#0050",
+   "CIBC_2025_FS#0147",
+   "CIBC_2025_MDA#0019",
+   "CIBC_2025_FS#0056",
+   "CIBC_2025_FS#0155",
+   "CIBC_2025_AIF#0003"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:basic",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure [S1]. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks [S1]. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1].\n\nAt the senior management level, the Group Executive Leadership Team is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability [S1]. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives [S1]. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management and chairs the Global Risk Committee, which discusses risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1].\n\nOperationally, CIBC's Global Environmental and Other Risk Management (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks [S2]. The Environmental Risk Management team within GOERM reports to the Executive Vice-President of GOERM, who reports directly to the CRO [S1]. Environmental and social risk assessments are integrated into credit risk assessment processes across all sectors, with escalation procedures in place for transactions with significant environmental and social risk [S2]. CIBC also applies the Equator Principles as a signatory since 2003 for project finance and related loans [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0137",
+   "CIBC_2025_MDA#0083"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "native:fewshot",
+  "answer": "Royal Bank of Canada's total provision for credit losses (PCL) in fiscal 2025 was $4,362 million [S10].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0164",
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0252",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0069",
+   "RBC_2025_AR#0198",
+   "RBC_2025_AR#0364",
+   "RBC_2025_AR#0256"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:fewshot",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the quarter ended July 31, 2025 was 129%, which translates into a surplus of approximately $103 billion [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0070",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0003"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:fewshot",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) integrating climate-related risk considerations into existing risk management practices [S2]; (2) using climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]; and (3) assessing the impact of climate-related risks across multiple Principal Risks in the bank's existing Enterprise-Wide Stress Testing program to help ensure adequate capitalization against unexpected events resulting from climate change [S2]. Additionally, RBC monitors regulatory developments in climate risk management, including OSFI's final Guideline E-23 on Model Risk Management (effective May 1, 2027), which sets out expectations for managing risks associated with traditional models as well as emerging technologies such as artificial intelligence and machine learning [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0136",
+   "RBC_2025_AR#0077",
+   "RBC_2025_AR#0139"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 177,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:fewshot",
+  "answer": "TD's total provision for credit losses in Q2 2025 (three months ended April 30, 2025) was $1,341 million. This comprised provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0194",
+   "TD_2025_Q2#0057"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:fewshot",
+  "answer": "TD's average liquidity coverage ratio (LCR) for the quarter ended October 31, 2025 was 130% [S3]. The Bank continues to meet regulatory requirements, and the LCR trended lower throughout the quarter as the bank continued to focus on deploying elevated surpluses from the sale of its equity investment in Schwab, reducing the LCR to a more sustainable level [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q1#0084",
+   "TD_2025_Q2#0102",
+   "TD_2025_MDA#0189",
+   "TD_2025_Q1#0078",
+   "TD_2025_Q2#0096",
+   "TD_2025_Q3#0109"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:fewshot",
+  "answer": "TD discusses technology and cybersecurity risk in several key areas in its fiscal 2025 MD&A:\n\n1. **Risk Management Oversight**: The Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S3].\n\n2. **Operational Risk Management**: The Bank manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data through enterprise-wide programs and industry-accepted practices to support rapid detection and response [S3].\n\n3. **Evolving Threat Environment**: The Bank regularly reviews external events and assesses and may enhance its controls and response capabilities to help mitigate against cyber-attacks or data security breaches in response to the evolving threat environment, but these activities may not mitigate all risks [S4]. The tactics, techniques, and procedures used by threat actors change frequently and risks can originate from increasingly sophisticated sources [S4].\n\n4. **Potential Operational Disruptions**: The Bank's owned and operated applications, platforms, networks, processes, products, and services could be subject to failures or disruptions due to human error, natural disasters, utility or infrastructure disruptions, pandemics, malicious insiders or service providers, cyber-attacks or other criminal or terrorist acts, which may impact the Bank's operations and reputation [S4].\n\n5. **Technology Investment Adequacy**: The Bank's investments in its technology and cyber infrastructure, including investment in its risk and control environment, may be inadequate to meet regulatory expectations, remain competitive, serve clients effectively, and avoid business disruptions or operational errors [S4].\n\n6. **Cyber Insurance Challenges**: Cyber insurance providers continue to be concerned about systemic cyber risk, causing coverage term changes across the industry, which has the potential to impact the Bank's ability to mitigate risks through cyber insurance and may limit the amount of coverage available for financial losses [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0003",
+   "TD_2025_MDA#0206"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:fewshot",
+  "answer": "BMO's total provision for credit losses (PCL) in Q2 2025 was $1,054 million [S2], [S6]. This comprised $765 million in provision for credit losses on impaired loans and $289 million in provision for credit losses on performing loans [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0004",
+   "BMO_2025_Q2#0000"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 1,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:fewshot",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025 [S1][S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0044",
+   "BMO_2025_Q3#0087"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:fewshot",
+  "answer": "BMO described its exposure to and management of climate risk in fiscal 2024 through several key approaches:\n\nExposure Recognition: BMO recognized exposure to both physical risks (acute weather events like storms, floods, wildfires and heatwaves, and chronic effects like temperature changes and rising sea levels) and transition risks (associated with the shift to a net zero carbon economy, including policy changes, technological changes, and shifts in consumer preferences) [S5].\n\nRisk Management Framework: BMO developed a qualitative Risk Appetite Statement that includes climate-related risks and enhanced a transition key risk metric with risk tolerance thresholds measuring credit risk exposure in carbon-related assets as a percentage of total credit risk exposure. BMO also included a key risk indicator to quantify exposure to physical risks of flooding [S2]. Climate risk was incorporated within the bank's Internal Capital Adequacy Assessment Process (ICAAP) through an integrated loss assessment approach [S1].\n\nCredit Risk Integration: BMO integrated climate risk into its Credit Risk Management Framework through sector-specific financing guidelines, an E&S Risk General Financing Guideline for wholesale lending transactions, and E&S Risk Rating (ESRR) assessment tools. The guidelines include direction on understanding specific impacts of climate change on borrowers and their operations [S2].\n\nScenario Analysis: BMO continued developing its climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience, evaluating transition risks and physical risks through comprehensive climate-based scenarios across portfolios and risk types, in line with TCFD recommendations [S2].\n\nPortfolio Management: BMO maintained a diversified lending portfolio to limit exposure to sectors vulnerable to climate-related risk and conducted sector-specific reviews across its lending portfolio to assess exposure to climate-sensitive industries [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0170",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0168",
+   "BMO_2024_MDA#0067"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 189,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:fewshot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0019",
+   "BNS_2025_MDA#0090",
+   "BNS_2025_MDA#0080",
+   "BNS_2025_MDA#0215",
+   "BNS_2025_FS#0159"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:fewshot",
+  "answer": "Scotiabank reported a Liquidity Coverage Ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0094",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0165"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:fewshot",
+  "answer": "Scotiabank governs model risk through the Model Risk Management Framework (MRMF) [S2]. All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by the MRMF, which is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, including well-defined roles and responsibilities for key stakeholders across the lifecycle [S2]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues, and this score reflects the Bank's tolerance for model-related risk and is reported quarterly in the Enterprise Risk Management (ERM) Report [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_MDA#0110",
+   "BNS_2025_MDA#0112"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:fewshot",
+  "answer": "CIBC's provision for credit losses in the third quarter of fiscal 2025 was $559 million, up $76 million from the same quarter last year [S6]. This comprised provision for credit losses on performing loans that was comparable with the same quarter last year (with an unfavourable change in economic outlook partially offset by favourable credit migration), and provision for credit losses on impaired loans that was up due to higher provisions in Canadian Personal and Business Banking, and U.S. Commercial Banking and Wealth Management [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0016"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:fewshot",
+  "answer": "Average total VaR for CIBC for the year ended October 31, 2025 was up $0.4 million from the prior year, driven primarily by changes in the equity derivatives portfolios [S1]. However, the specific dollar amount of the average total VaR for fiscal 2025 is not provided in the documents.",
+  "abstained": false,
+  "confidence": "medium",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_MDA#0009",
+   "CIBC_2025_FS#0075",
+   "CIBC_2025_MDA#0059",
+   "CIBC_2025_FS#0134"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:fewshot",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure [S1, S2]. At the Board level, the Corporate Governance Committee (CGC) leads oversight of CIBC's ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks [S1]. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1]. At the senior management level, the Group Executive Leadership Team (Group ELT) is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability [S1]. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives [S1]. The Chief Risk Officer (CRO) chairs the Global Risk Committee (GRC), which provides oversight of risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1, S6]. Operationally, the Global Environmental and Social Framework outlines shared responsibility for environmental and social risk management across multiple teams, with the Global Environmental and Other Risk Management (GOERM) group providing independent oversight of environmental risks [S2]. Climate risk is integrated into CIBC's risk management processes beginning with climate-related risk appetite, with tolerance levels implemented into Risk Appetite Statements regionally and enterprise-wide [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0069"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 87,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "native:cot",
+  "answer": "RBC's total provision for credit losses in fiscal 2025 was $4,362 million. [S10]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0164",
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0252",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0069",
+   "RBC_2025_AR#0198",
+   "RBC_2025_AR#0364",
+   "RBC_2025_AR#0256"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:cot",
+  "answer": "Royal Bank of Canada's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%, which translates into a surplus of approximately $103 billion. This represented a decrease from 131% in the prior quarter (ended April 30, 2025), which had a surplus of approximately $107 billion. The decrease was primarily due to loan growth, partially offset by lower funding requirements on securities and securities financing transactions and growth in deposits and funding.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0003"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:cot",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) Integrating climate-related risk considerations into existing risk management practices [S4]; (2) Using climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S4]; (3) Assessing the impact of climate-related risks across multiple Principal Risks in the bank's existing Enterprise-Wide Stress Testing program to help ensure adequate capitalization against unexpected events resulting from climate change [S4]; and (4) Monitoring developments in U.S. environmental and social matters, including climate, at both federal and state levels, and assessing their impacts on RBC's businesses [S1]. Additionally, RBC is assessing the impact of the European Union's Corporate Sustainability Reporting Directive (CSRD) requirements, which it anticipates will apply to the bank from fiscal 2029 at the consolidated level [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0136",
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0139",
+   "RBC_2025_AR#0077"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 177,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:cot",
+  "answer": "TD's total provision for credit losses in Q2 2025 (for the three months ended April 30, 2025) was $1,341 million. This comprised provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million. [S1]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0194",
+   "TD_2025_Q2#0057"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:cot",
+  "answer": "TD's average liquidity coverage ratio (LCR) for the quarter ended October 31, 2025 was 130% [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q1#0084",
+   "TD_2025_Q2#0102",
+   "TD_2025_MDA#0189",
+   "TD_2025_Q1#0078",
+   "TD_2025_Q2#0096",
+   "TD_2025_Q3#0109"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:cot",
+  "answer": "TD states that it manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data [S3]. The Bank monitors, manages, and continues to enhance its ability to mitigate these risks through enterprise-wide programs and the implementation of industry-accepted technology risk and cyber threat management practices to help support rapid detection and response [S3]. TD's Platforms and Technology Risk Oversight Committee provides senior executive oversight, direction and guidance regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S3]. The Committee endorses actions and makes recommendations to the CEO and the ERMC as appropriate, including in some instances, supporting onward recommendations to the Risk Committee and the Board of Directors [S3]. Together with the Bank's Operational Risk Framework, technology and cybersecurity programs also include resiliency planning and testing, as well as disciplined technology operations practices [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0000",
+   "TD_2025_MDA#0003"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:cot",
+  "answer": "BMO's total provision for credit losses in Q2 2025 was $1,054 million. [S1] This comprised $765 million in provision for credit losses on impaired loans and $289 million in provision for credit losses on performing loans. [S1] The total provision for credit losses as a percentage of average net loans and acceptances was 63 basis points. [S1]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0059"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:cot",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025 (the end of Q3 fiscal 2025).",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0044",
+   "BMO_2025_Q3#0087"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:cot",
+  "answer": "In fiscal 2024, BMO described its climate risk exposure and management through several integrated approaches. The bank identified channels through which climate risk manifests itself in credit, market, operational, liquidity and insurance risk [S3]. BMO developed an integrated loss assessment approach for incorporating climate risk within the bank's Internal Capital Adequacy Assessment Process (ICAAP) [S3]. The bank enhanced a transition key risk metric with risk tolerance thresholds measuring credit risk exposure in support of carbon-related assets as a percentage of total credit risk exposure, and included a key risk indicator to quantify BMO's exposure to physical risks of flooding [S6]. BMO maintains a diversified lending portfolio to limit exposure to climate-sensitive sectors and conducts sector-specific reviews across its lending portfolio to assess exposure to climate-sensitive industries [S6]. The bank developed a qualitative Risk Appetite Statement that includes climate-related risks [S6] and implemented an E&S Risk General Financing Guideline for wholesale lending that includes direction on understanding specific impacts of climate change on borrowers [S6]. BMO is developing a climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience to climate-related risks, leveraging existing risk capabilities with climate-specific expertise, tools and data, including evaluation of transition risks and physical risks through comprehensive climate-based scenarios [S6]. The bank also reports on Scope 1, 2 and 3 greenhouse gas emissions using the GHG Protocol and PCAF [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0067",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0005",
+   "BMO_2024_MDA#0170"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:cot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0019",
+   "BNS_2025_MDA#0090",
+   "BNS_2025_MDA#0080",
+   "BNS_2025_MDA#0197",
+   "BNS_2025_AIF#0000",
+   "BNS_2025_FS#0015"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:cot",
+  "answer": "Scotiabank reported a Liquidity Coverage Ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S8]. The LCR decreased from 136% in the quarter ended October 31, 2023 [S8]. The decrease was mainly attributable to lower high-quality liquid assets (HQLA), while net cash outflows were largely unchanged [S14].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0239",
+   "BNS_2024_MDA#0040",
+   "BNS_2024_MDA#0030",
+   "BNS_2024_MDA#0165",
+   "BNS_2024_MDA#0039",
+   "BNS_2024_MDA#0091",
+   "BNS_2024_MDA#0220",
+   "BNS_2024_MDA#0023",
+   "BNS_2024_MDA#0139",
+   "BNS_2024_MDA#0166"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:cot",
+  "answer": "Scotiabank governs model risk in fiscal 2025 through the Model Risk Management Framework (MRMF). All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by the MRMF, which is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, including well-defined roles and responsibilities for key stakeholders across the lifecycle [S1]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues, and is reported quarterly in the Enterprise Risk Management (ERM) Report [S1]. Additionally, the development, design, independent review and testing, and approval of models are subject to the Model Risk Management Policy, with oversight and a strong governance framework that includes the application of sound and experienced judgment [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_MDA#0116",
+   "BNS_2025_AIF#0008",
+   "BNS_2025_MDA#0110"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 133,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:cot",
+  "answer": "CIBC's provision for credit losses in the third quarter of fiscal 2025 was $559 million [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0016"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:cot",
+  "answer": "CIBC's average total VaR for the year ended October 31, 2025 was up $0.4 million from the prior year, driven primarily by changes in the equity derivatives portfolios. However, the specific dollar amount of the average total VaR for fiscal 2025 is not disclosed in the provided documents.",
+  "abstained": false,
+  "confidence": "medium",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_FS#0147",
+   "CIBC_2025_FS#0081",
+   "CIBC_2025_FS#0050",
+   "CIBC_2025_MDA#0009"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:cot",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1]. At the senior management level, the Group Executive Leadership Team (Group ELT) is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives [S1]. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management and chairs the Global Risk Committee (GRC), which provides oversight of risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1]. Within the Risk Management function, the Global Environmental and Other Risk Management (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks, led by an Executive Vice-President who reports directly to the CRO [S2]. Environmental risk, including climate-related issues, is assessed and mitigated as a component of reputation and legal risks according to the Reputation Risk Management Framework and Global Reputation and Legal Risks Policy [S2]. Climate risk is integrated into risk management processes beginning with climate-related risk appetite, with tolerance levels implemented into Risk Appetite Statements regionally and enterprise-wide for relevant business units [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0069"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "langchain:cot",
+  "answer": "RBC's total provision for credit losses in fiscal 2025 was $4,362 million. This comprised $3,734 million in PCL on impaired loans, $622 million in PCL on performing loans, and $6 million in PCL on other financial assets. [S4]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0069"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "langchain:cot",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0058",
+   "RBC_2025_Q3#0023"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "langchain:cot",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) Integration into existing risk management practices: RBC continues to integrate climate-related risk considerations into its existing risk management practices [S2]. (2) Climate scenario analysis: The bank uses climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (3) Enterprise-Wide Stress Testing: RBC assesses the impact of climate-related risks across multiple Principal Risks in its existing Enterprise-Wide Stress Testing program to help ensure the bank is adequately capitalized against unexpected events resulting from climate change [S2]. (4) Evolving capabilities: RBC continues to evolve its approach to environmental and social risk (which includes climate-related risk) by leveraging existing risk management capabilities and building new capabilities where required, including for purposes of incorporating regulatory guidance, industry best practices and improved data analytics to identify, assess, measure, manage, monitor and report on potential E&S impacts on clients, portfolios and operations [S5]. (5) Governance oversight: The Board and its Committees provide oversight of the bank's strategic approach to sustainability matters, including climate change, with the Risk Committee overseeing significant and emerging risks to the bank, including E&S risks [S5].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0080",
+   "RBC_2025_AR#0145",
+   "RBC_2025_AR#0073"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 181,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "langchain:cot",
+  "answer": "TD's total provision for credit losses in Q2 2025 (for the three months ended April 30, 2025) was $1,341 million. This comprised: provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0057",
+   "TD_2025_Q2#0065",
+   "TD_2025_Q2#0164"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "langchain:cot",
+  "answer": "TD's average liquidity coverage ratio for the quarter ended October 31, 2025 was 130% [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_Q3#0109",
+   "TD_2025_Q1#0078",
+   "TD_2025_Q3#0108",
+   "TD_2025_Q2#0096",
+   "TD_2025_Q3#0103"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "langchain:cot",
+  "answer": "TD describes technology and cybersecurity risk as follows: The Bank manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data [S1]. TD monitors, manages, and continues to enhance its ability to mitigate these risks through enterprise-wide programs and industry-accepted technology risk and cyber threat management practices to support rapid detection and response [S1]. The Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S1]. Technology and cybersecurity programs include resiliency planning and testing, as well as disciplined technology operations practices [S1]. However, TD acknowledges that the Bank regularly reviews external events and may enhance controls and response capabilities, but these activities may not mitigate all risks, and the Bank may experience loss or damage from cyber-attacks or data security breaches [S4]. The Bank notes that threat actors' tactics change frequently and risks can originate from increasingly sophisticated sources [S4]. Additionally, the Bank's applications, platforms, networks, processes, products, and services could be subject to failures or disruptions from cyber-attacks, malicious insiders, or other criminal acts, which may impact operations and damage reputation [S4]. TD also notes that cyber insurance providers' coverage term changes across the industry may impact the Bank's ability to mitigate risks through cyber insurance [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0067",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0177"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "langchain:cot",
+  "answer": "Bank of Montreal's total provision for credit losses in Q2 2025 was $1,054 million [S1]. This comprised provision for credit losses on impaired loans of $765 million and provision for credit losses on performing loans of $289 million [S1]. The total provision for credit losses as a percentage of average net loans and acceptances was 63 basis points [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0059",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0031"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "langchain:cot",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0062",
+   "BMO_2025_Q3#0087",
+   "BMO_2025_Q3#0043"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "langchain:cot",
+  "answer": "In fiscal 2024, BMO described its exposure to climate risk as involving both physical and transition risks [S4]. Physical risks include increased frequency and intensity of weather-related events such as storms, floods, wildfires and heatwaves, as well as longer-term changes like temperature changes, rising sea levels and changes in soil productivity [S4]. Transition risks are associated with the shift to a net zero carbon economy and may arise from climate-related policy changes, technological changes, behavioural changes involving carbon-pricing mechanisms, and shifts in consumer preferences toward lower-carbon products and services [S4].\n\nBMO's management of climate risk includes several key approaches: (1) identifying channels through which climate risk manifests itself in credit, market, operational, liquidity and insurance risk, and developing an integrated loss assessment approach for incorporating climate risk within the bank's Internal Capital Adequacy Assessment Process (ICAAP) [S1]; (2) developing a qualitative Risk Appetite Statement that includes E&S risks and climate-related risks, with enhanced transition key risk metrics measuring credit risk exposure in support of carbon-related assets as a percentage of total credit risk exposure, and key risk indicators to quantify exposure to physical risks of flooding [S6]; (3) addressing E&S risk in the Credit Risk Management Framework with enhanced due diligence and sector-specific financing guidelines for higher-risk sectors [S6]; (4) maintaining a diversified lending portfolio to limit exposure to climate-sensitive industries and conducting sector-specific reviews [S6]; and (5) developing a climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience to climate-related risks, leveraging existing risk capabilities with climate-specific expertise, tools and data [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0168",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0170"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 189,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "langchain:cot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0019",
+   "BNS_2025_MDA#0090",
+   "BNS_2025_MDA#0085",
+   "BNS_2025_FS#0130",
+   "BNS_2025_FS#0160",
+   "BNS_2025_AIF#0000"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "langchain:cot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0040",
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0091",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0139"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "langchain:cot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_FS#0150",
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0077",
+   "BNS_2025_FS#0159"
+  ],
+  "cited": [],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "langchain:cot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0002",
+   "CIBC_2025_Q3#0021",
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0057"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "langchain:cot",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_FS#0082",
+   "CIBC_2025_FS#0050",
+   "CIBC_2025_FS#0147",
+   "CIBC_2025_MDA#0019",
+   "CIBC_2025_FS#0075"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "langchain:cot",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1].\n\nAt the senior management level, the Group Executive Leadership Team is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management and chairs the Global Risk Committee, which discusses risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1].\n\nWithin the Risk Management function, the Global Environmental and Social Risk Management (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks. The Executive Vice-President of GOERM reports directly to the CRO and works with the Enterprise Sustainability team to ensure environmental and social risks are integrated into sustainability priorities and banking services [S1] [S3].\n\nClimate risk is integrated into CIBC's risk management processes beginning with climate-related risk appetite, defined based on qualitative and quantitative considerations. Tolerance levels have been implemented into Risk Appetite Statements regionally and enterprise-wide for relevant business units [S3]. Environmental and social evaluations are integrated into credit risk assessment processes, with standards and procedures in place for all sectors, including requirements for environmental and social risk assessments in project finance, project-related corporate loans and bridge loans in accordance with CIBC's commitment as a signatory to the Equator Principles [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0083"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "native:cot+datefix",
+  "answer": "RBC's total provision for credit losses in fiscal 2025 was $4,362 million. [S10]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0164",
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0252",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0069",
+   "RBC_2025_AR#0198",
+   "RBC_2025_AR#0364",
+   "RBC_2025_AR#0256"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:cot+datefix",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%, which translates into a surplus of approximately $103 billion. [S2]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0003",
+   "RBC_2025_Q3#0073"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:cot+datefix",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) Integrating climate-related risk considerations into existing risk management practices [S2]. (2) Using climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (3) Assessing the impact of climate-related risks across multiple Principal Risks in the bank's existing Enterprise-Wide Stress Testing program to help ensure adequate capitalization against unexpected events resulting from climate change [S2]. (4) Monitoring developments in U.S. environmental and social scrutiny at federal and state levels, including statutes, regulations and litigation, and assessing their impacts on the bank's businesses [S1]. (5) Assessing the impact of the European Union's Corporate Sustainability Reporting Directive (CSRD) and European Sustainability Reporting Standards (ESRS), which the bank anticipates will apply to it from fiscal 2029 at the consolidated level [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0136",
+   "RBC_2025_AR#0077",
+   "RBC_2025_AR#0139"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 177,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:cot+datefix",
+  "answer": "TD's total provision for credit losses in Q2 2025 (for the three months ended April 30, 2025) was $1,341 million. This comprised provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million. [S1]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0194",
+   "TD_2025_Q2#0057"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:cot+datefix",
+  "answer": "TD's average liquidity coverage ratio for the quarter ended October 31, 2025 was 130%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_MDA#0190",
+   "TD_2025_MDA#0226",
+   "TD_2025_MDA#0000"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:cot+datefix",
+  "answer": "TD discusses technology and cybersecurity risk in its fiscal 2025 MD&A across multiple dimensions. The Bank manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to its technology, infrastructure, systems, information, and data [S1]. TD monitors, manages, and enhances its ability to mitigate these risks through enterprise-wide programs and industry-accepted technology risk and cyber threat management practices to support rapid detection and response [S1]. The Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S1]. The Committee endorses actions and makes recommendations to the CEO and the ERMC, and in some instances, supports recommendations to the Risk Committee and the Board of Directors [S1]. Technology and cybersecurity programs include resiliency planning and testing, as well as disciplined technology operations practices [S1]. TD acknowledges that the Bank regularly reviews external events and assesses and may enhance its controls and response capabilities to help mitigate against cyber-attacks or data security breaches, but these activities may not mitigate all risks [S4]. The Bank notes that the tactics, techniques, and procedures used by threat actors change frequently and risks can originate from increasingly sophisticated sources [S4]. TD's owned and operated applications, platforms, networks, processes, products, and services could be subject to failures or disruptions due to human error, natural disasters, utility or infrastructure disruptions, pandemics, malicious insiders or service providers, cyber-attacks or other criminal or terrorist acts [S4]. Additionally, cyber insurance providers' concerns about systemic cyber risk have caused coverage term changes across the industry, potentially impacting the Bank's ability to mitigate risks through cyber insurance [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0003",
+   "TD_2025_MDA#0206"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:cot+datefix",
+  "answer": "BMO's total provision for credit losses in Q2 2025 was $1,054 million. [S1] This comprised $765 million in provision for credit losses on impaired loans and $289 million in provision for credit losses on performing loans. [S1] The total provision for credit losses as a percentage of average net loans and acceptances was 63 basis points. [S1]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0059"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:cot+datefix",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025 (the end of Q3 fiscal 2025).",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0082",
+   "BMO_2025_Q3#0044"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:cot+datefix",
+  "answer": "In fiscal 2024, BMO described its climate risk exposure and management through several key approaches [S1]. The bank identified the channels through which climate risk manifests itself in credit, market, operational, liquidity and insurance risk. BMO developed an integrated loss assessment approach for incorporating climate risk within the bank's Internal Capital Adequacy Assessment Process (ICAAP). The bank conducted scenario exercises from OSFI to help identify potential exposures and concentrations to short-, medium- and long-term climate risks, which may inform business strategy in relation to climate change [S1]. BMO reported on climate-related metrics and targets including Scope 1 and 2 greenhouse gas (GHG) emissions calculated using the GHG Protocol, and Scope 3 emissions calculated using the Partnership for Carbon Accounting Financials (PCAF) [S1]. Additionally, BMO's Sustainability group partnered with Procurement and Corporate Real Estate groups on operational sustainability, establishing an operational environmental management approach including application of the ISO 14001 framework across essential facilities, and setting objectives and targets intended to align operations with sustainability performance goals [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0067",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0005"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:cot+datefix",
+  "answer": "Scotiabank's CET1 capital ratio was 13.2% as at April 30, 2025. [S2]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_Q2#0122",
+   "BNS_2025_Q2#0121",
+   "BNS_2025_Q2#0108",
+   "BNS_2025_Q2#0085",
+   "BNS_2025_Q2#0219",
+   "BNS_2025_Q2#0129"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_Q2",
+    "page": 53,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:cot+datefix",
+  "answer": "Scotiabank reported a Liquidity Coverage Ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S8]. The LCR decreased from 136% in the quarter ended October 31, 2023 [S8]. The decrease was mainly attributable to lower high-quality liquid assets (HQLA), while net cash outflows were largely unchanged [S14].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0239",
+   "BNS_2024_MDA#0040",
+   "BNS_2024_MDA#0030",
+   "BNS_2024_MDA#0165",
+   "BNS_2024_MDA#0039",
+   "BNS_2024_MDA#0091",
+   "BNS_2024_MDA#0220",
+   "BNS_2024_MDA#0023",
+   "BNS_2024_MDA#0139",
+   "BNS_2024_MDA#0166"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:cot+datefix",
+  "answer": "Scotiabank governs model risk through the Model Risk Management Framework (MRMF). All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by the MRMF [S2]. The MRMF is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, including well-defined roles and responsibilities for key stakeholders across the lifecycle [S2]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues. This score reflects the Bank's tolerance for model-related risk and is reported quarterly in the Enterprise Risk Management (ERM) Report [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_MDA#0110",
+   "BNS_2025_MDA#0112"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:cot+datefix",
+  "answer": "CIBC's provision for credit losses in the third quarter of 2025 was $559 million [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0016"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:cot+datefix",
+  "answer": "CIBC's average total VaR for the year ended October 31, 2025 was up $0.4 million from the prior year, driven primarily by changes in the equity derivatives portfolios. [S1]",
+  "abstained": false,
+  "confidence": "medium",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_FS#0075",
+   "CIBC_2025_MDA#0059",
+   "CIBC_2025_FS#0081",
+   "CIBC_2025_FS#0134"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:cot+datefix",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1]. At the senior management level, the Group Executive Leadership Team (Group ELT) is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives [S1]. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management and chairs the Global Risk Committee (GRC), which provides oversight of risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1]. Within the Risk Management function, the Global Environmental and Other Risk Management (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks, led by an Executive Vice-President who reports directly to the CRO [S2]. Environmental risk, including climate-related issues, is assessed and mitigated as a component of reputation and legal risks according to the Reputation Risk Management Framework and Global Reputation and Legal Risks Policy [S2]. Climate risk is integrated into risk management processes beginning with climate-related risk appetite, with tolerance levels implemented into Risk Appetite Statements regionally and enterprise-wide for relevant business units [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0069"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "langchain:cot+datefix",
+  "answer": "RBC's total provision for credit losses in fiscal 2025 was $4,362 million. This comprised $3,734 million in PCL on impaired loans, $622 million in PCL on performing loans, and $6 million in PCL on other financial assets. [S4]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0069"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "langchain:cot+datefix",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0058",
+   "RBC_2025_Q3#0023"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "langchain:cot+datefix",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) Integration into existing risk management practices: RBC continues to integrate climate-related risk considerations into its existing risk management practices [S2]. (2) Climate scenario analysis: The bank uses climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (3) Enterprise-Wide Stress Testing: RBC assesses the impact of climate-related risks across multiple Principal Risks in its existing Enterprise-Wide Stress Testing program to help ensure the bank is adequately capitalized against unexpected events resulting from climate change [S2]. (4) Evolving capabilities: RBC continues to evolve its approach to environmental and social risk (which includes climate-related risk) by leveraging existing risk management capabilities and building new capabilities where required, including for purposes of incorporating regulatory guidance, industry best practices and improved data analytics to identify, assess, measure, manage, monitor and report on potential E&S impacts on clients, portfolios and operations [S5]. (5) Governance oversight: The Board and its Committees provide oversight of the bank's strategic approach to sustainability matters, including climate change, with the Risk Committee overseeing significant and emerging risks to the bank, including E&S risks [S5].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0080",
+   "RBC_2025_AR#0145",
+   "RBC_2025_AR#0073"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 181,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "langchain:cot+datefix",
+  "answer": "TD's total provision for credit losses in Q2 2025 (for the three months ended April 30, 2025) was $1,341 million. This comprised: provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0057",
+   "TD_2025_Q2#0065",
+   "TD_2025_Q2#0164"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "langchain:cot+datefix",
+  "answer": "TD's average liquidity coverage ratio for the quarter ended October 31, 2025 was 130%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_MDA#0194",
+   "TD_2025_MDA#0226",
+   "TD_2025_MDA#0196",
+   "TD_2025_MDA#0101",
+   "TD_2025_MDA#0031"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "langchain:cot+datefix",
+  "answer": "TD describes technology and cybersecurity risk as follows: The Bank manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data [S1]. TD monitors, manages, and continues to enhance its ability to mitigate these risks through enterprise-wide programs and industry-accepted technology risk and cyber threat management practices to support rapid detection and response [S1]. The Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S1]. Technology and cybersecurity programs include resiliency planning and testing, as well as disciplined technology operations practices [S1]. However, TD acknowledges that the Bank regularly reviews external events and may enhance controls and response capabilities, but these activities may not mitigate all risks, and the Bank may experience loss or damage from cyber-attacks or data security breaches [S4]. The Bank notes that threat actors' tactics change frequently and risks can originate from increasingly sophisticated sources [S4]. Additionally, the Bank's applications, platforms, networks, processes, products, and services could be subject to failures or disruptions from cyber-attacks, malicious insiders, or other criminal acts, which may impact operations and damage reputation [S4]. TD also notes that cyber insurance providers' coverage term changes across the industry may impact the Bank's ability to mitigate risks through cyber insurance [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0067",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0177"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "langchain:cot+datefix",
+  "answer": "Bank of Montreal's total provision for credit losses in Q2 2025 was $1,054 million [S1]. This comprised provision for credit losses on impaired loans of $765 million and provision for credit losses on performing loans of $289 million [S1]. The total provision for credit losses as a percentage of average net loans and acceptances was 63 basis points [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0059",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0031"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "langchain:cot+datefix",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0062",
+   "BMO_2025_Q3#0087",
+   "BMO_2025_Q3#0043"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "langchain:cot+datefix",
+  "answer": "In fiscal 2024, BMO described its exposure to climate risk as involving both physical and transition risks [S4]. Physical risks include increased frequency and intensity of weather-related events such as storms, floods, wildfires and heatwaves, as well as longer-term changes like temperature changes, rising sea levels and changes in soil productivity [S4]. Transition risks are associated with the shift to a net zero carbon economy and may arise from climate-related policy changes, technological changes, behavioural changes involving carbon-pricing mechanisms, and shifts in consumer preferences toward lower-carbon products and services [S4].\n\nBMO's management of climate risk includes several key approaches: (1) identifying channels through which climate risk manifests itself in credit, market, operational, liquidity and insurance risk, and developing an integrated loss assessment approach for incorporating climate risk within the bank's Internal Capital Adequacy Assessment Process (ICAAP) [S1]; (2) developing a qualitative Risk Appetite Statement that includes E&S risks and climate-related risks, with enhanced transition key risk metrics measuring credit risk exposure in support of carbon-related assets as a percentage of total credit risk exposure, and key risk indicators to quantify exposure to physical risks of flooding [S6]; (3) addressing E&S risk in the Credit Risk Management Framework with enhanced due diligence and sector-specific financing guidelines for higher-risk sectors [S6]; (4) maintaining a diversified lending portfolio to limit exposure to climate-sensitive industries and conducting sector-specific reviews [S6]; and (5) developing a climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience to climate-related risks, leveraging existing risk capabilities with climate-specific expertise, tools and data [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0168",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0170"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 189,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "langchain:cot+datefix",
+  "answer": "Scotiabank's CET1 capital ratio as at April 30, 2025 was not explicitly stated in the provided documents. However, the documents indicate that the CET1 capital ratio increased by approximately 30 basis points from the prior quarter (January 31, 2025), and that the Common Equity Tier 1 capital was $60.4 billion as at April 30, 2025. The specific CET1 ratio percentage for April 30, 2025 is not disclosed in these passages.",
+  "abstained": true,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2025_Q2#0122",
+   "BNS_2025_Q2#0186",
+   "BNS_2025_Q2#0108",
+   "BNS_2025_Q2#0085",
+   "BNS_2025_Q2#0003",
+   "BNS_2025_Q2#0149"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_Q2",
+    "page": 53,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "langchain:cot+datefix",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0040",
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0091",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0139"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "langchain:cot+datefix",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_FS#0150",
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0077",
+   "BNS_2025_FS#0159"
+  ],
+  "cited": [],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "langchain:cot+datefix",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0002",
+   "CIBC_2025_Q3#0021",
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0057"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "langchain:cot+datefix",
+  "answer": "The provided documents do not contain information about this.",
+  "abstained": true,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_FS#0082",
+   "CIBC_2025_FS#0050",
+   "CIBC_2025_FS#0147",
+   "CIBC_2025_MDA#0019",
+   "CIBC_2025_FS#0075"
+  ],
+  "cited": [],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "langchain:cot+datefix",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1].\n\nAt the senior management level, the Group Executive Leadership Team is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management and chairs the Global Risk Committee, which discusses risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1].\n\nWithin the Risk Management function, the Global Environmental and Social Risk Management (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks. The Executive Vice-President of GOERM reports directly to the CRO and works with the Enterprise Sustainability team to ensure environmental and social risks are integrated into sustainability priorities and banking services [S1] [S3].\n\nClimate risk is integrated into CIBC's risk management processes beginning with climate-related risk appetite, defined based on qualitative and quantitative considerations. Tolerance levels have been implemented into Risk Appetite Statements regionally and enterprise-wide for relevant business units [S3]. Environmental and social evaluations are integrated into credit risk assessment processes, with standards and procedures in place for all sectors, including requirements for environmental and social risk assessments in project finance, project-related corporate loans and bridge loans in accordance with CIBC's commitment as a signatory to the Equator Principles [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0083"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "native:cot+openai",
+  "answer": "{\"answer\": \"RBC's total provision for credit losses in fiscal 2025 was 4,362 million Canadian dollars.\", \"citations\": [S9], \"confidence\": \"high\", \"caveats\": [], \"abstained\": false}",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0252",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0069",
+   "RBC_2025_AR#0198",
+   "RBC_2025_AR#0364",
+   "RBC_2025_AR#0256"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:cot+openai",
+  "answer": "The average LCR for the quarter ended July 31, 2025 was 129%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0070",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0003",
+   "RBC_2025_Q3#0073"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:cot+openai",
+  "answer": "RBC manages climate-related risk by integrating climate-related risk considerations into its existing risk management practices. This includes conducting climate scenario analysis to inform future strategic planning and evolve risk management strategies. Additionally, RBC assesses the impact of climate-related risks across multiple Principal Risks in its existing Enterprise-Wide Stress Testing program to ensure adequate capitalization against unexpected events resulting from climate change.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0139",
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0136",
+   "RBC_2025_AR#0079"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:cot+openai",
+  "answer": "The total provision for (recovery of) credit losses in Q2 2025 was $1,341 million.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0065",
+   "TD_2025_Q2#0057",
+   "TD_2025_Q2#0165"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:cot+openai",
+  "answer": "The Bank's average LCR was 130% for the quarter ended October 31, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_MDA#0190",
+   "TD_2025_MDA#0000",
+   "TD_2025_MDA#0226"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:cot+openai",
+  "answer": "{\"answer\": \"The Bank regularly reviews external events and assesses, and may enhance, its controls and response capabilities as it considers necessary to help mitigate against the risk of cyber-attacks or data security or other breaches in response to the evolving threat environment, but these activities may not mitigate all risks, and the Bank may experience loss or damage arising from such attacks or breaches. As a result, the industry and the Bank are susceptible to experiencing potential financial and non-financial loss and/or harm from these attacks or breaches. The adoption of certain technologies, such as cloud computing, AI, machine learning, robotics, and process automation call for continued focus and investment to manage the Bank's risks. It is possible that the Bank, or those with whom the Bank does business, have not anticipated or implemented or may not anticipate or implement effective measures against all such cyber and technology-related risks, particularly because the tactics, techniques, and procedures used by threat actors change frequently and risks can originate from a wide variety of sources that have also become increasingly sophisticated. Furthermore, the Bank's owned and operated applications, platforms, networks, processes, products, and services could be subject to failures or disruptions, or non-compliance with regulations as a result of human error, natural disasters, utility or infrastructure disruptions, pandemics or other public health emergencies, malicious insiders or service providers, cyber-attacks or other criminal or terrorist acts, which may impact the Bank's operations. Such adverse effects could limit the Bank's ability to deliver products and services to customers, and/or damage the Bank's reputation, which in turn could lead to financial loss. Cyber insurance providers continue to be concerned about systemic cyber risk, causing coverage term changes across the industry. This has the potential to impact the Bank's ability to mitigate risks through cyber insurance and may limit the amount of coverage available for financial losses. The Bank's investments in its technology and cyber infrastructure, including the investment in its risk and control environment, may be inadequate to meet regulatory expectations, remain competitive, serve clients effectively, and avoid business disruptions or operational errors.\", \"citations\": [S6], \"confidence\": \"high\", \"caveats\": [], \"abstained\": false}",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0003",
+   "TD_2025_MDA#0000",
+   "TD_2025_MDA#0126"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:cot+openai",
+  "answer": "Total provision for credit losses was $1,054 million in Q2 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0000",
+   "BMO_2025_Q2#0060"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 1,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:cot+openai",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0062",
+   "BMO_2025_Q3#0044"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:cot+openai",
+  "answer": "{\"answer\": \"BMO described its exposure to climate risk as involving both physical and transition risks. Physical risks are associated with a changing climate, which can lead to acute and chronic effects such as increased frequency and intensity of weather-related events. Transition risks arise from the shift to a net zero carbon economy, including climate-related policy changes and shifts in consumer preferences. BMO has developed a qualitative Risk Appetite Statement that includes E&S risks, enhanced key risk metrics to measure credit risk exposure related to carbon assets, and is conducting sector-specific reviews to assess exposure to climate-sensitive industries. The bank is also developing a climate scenario analysis program to explore vulnerabilities and enhance resilience to climate-related risks, in line with the recommendations of the Task Force on Climate-related Financial Disclosures (TCFD). This program includes evaluating transition and physical risks through comprehensive climate-based scenarios across portfolios and risk types, and considers integration of scenario impacts at the enterprise level.\", \"citations\": [S4, S5], \"confidence\": \"high\", \"caveats\": [], \"abstained\": false}",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0170",
+   "BMO_2024_MDA#0168",
+   "BMO_2024_MDA#0067"
+  ],
+  "cited": [],
+  "key_found": null,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:cot+openai",
+  "answer": "The CET1 capital ratio for Scotiabank as at April 30, 2025, was 13.2%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_Q2#0122",
+   "BNS_2025_Q2#0102",
+   "BNS_2025_Q2#0003",
+   "BNS_2025_Q2#0085",
+   "BNS_2025_Q2#0121",
+   "BNS_2025_Q2#0188",
+   "BNS_2025_Q2#0186",
+   "BNS_2025_Q2#0086",
+   "BNS_2025_Q2#0187",
+   "BNS_2025_Q2#0108",
+   "BNS_2025_Q2#0006"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_Q2",
+    "page": 53,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:cot+openai",
+  "answer": "{\"answer\": \"The liquidity coverage ratio reported by Scotiabank for fiscal 2024 was 131%.\", \"citations\": [S9], \"confidence\": \"high\", \"caveats\": [], \"abstained\": false}",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0094",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0002",
+   "BNS_2024_MDA#0040",
+   "BNS_2024_MDA#0030",
+   "BNS_2024_MDA#0165",
+   "BNS_2024_MDA#0039",
+   "BNS_2024_MDA#0091",
+   "BNS_2024_MDA#0220",
+   "BNS_2024_MDA#0023",
+   "BNS_2024_MDA#0139",
+   "BNS_2024_MDA#0166"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:cot+openai",
+  "answer": "{\"answer\": \"The Bank governs model risk through the Model Risk Management Framework (MRMF), which is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization. This includes well-defined roles and responsibilities for key stakeholders across the lifecycle of models. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues. This score reflects the Bank's tolerance for model-related risk and is reported quarterly in the Enterprise Risk Management (ERM) Report.\", \"citations\": [S3], \"confidence\": \"high\", \"caveats\": [], \"abstained\": false}",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0112",
+   "BNS_2025_MDA#0116",
+   "BNS_2025_MDA#0077"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:cot+openai",
+  "answer": "{\"answer\": \"Provision for credit losses was $559 million in the third quarter of 2025.\", \"citations\": [S10], \"confidence\": \"high\", \"caveats\": [], \"abstained\": false}",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0021",
+   "CIBC_2025_Q3#0057",
+   "CIBC_2025_Q3#0002",
+   "CIBC_2025_Q3#0113",
+   "CIBC_2025_Q3#0016",
+   "CIBC_2025_Q3#0054",
+   "CIBC_2025_Q3#0000"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:cot+openai",
+  "answer": "Average total VaR for the year ended October 31, 2025 was up $0.4 million from the prior year.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_FS#0050",
+   "CIBC_2025_FS#0147",
+   "CIBC_2025_MDA#0009",
+   "CIBC_2025_FS#0081"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:cot+openai",
+  "answer": "CIBC oversees environmental and climate risk through a structured governance framework involving multiple teams and committees. The Global Environmental and Social Framework outlines roles and responsibilities for risk management of environmental and social risks, with the GOERM group providing independent oversight. The Corporate Governance Committee (CGC) leads oversight of the ESG strategy, while the Risk Management Committee (RMC) reviews and approves key frameworks and policies related to climate-related risks. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management, and the Enterprise Sustainability team works alongside various groups to advance CIBC's sustainability agenda. Additionally, climate risk is integrated into CIBC's risk management processes, with defined risk appetite and tolerance levels implemented regionally and enterprise-wide.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0069",
+   "CIBC_2025_MDA#0071"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 103,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "native:cot+v4",
+  "answer": "Royal Bank of Canada's total provision for credit losses (PCL) in fiscal 2025 was $4,362 million [S7].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0164",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0018",
+   "RBC_2025_AR#0020"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:cot+v4",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%, which translates into a surplus of approximately $103 billion.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0003",
+   "RBC_2025_Q3#0030",
+   "RBC_2025_Q3#0074",
+   "RBC_2025_Q3#0076",
+   "RBC_2025_Q3#0001"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 37,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:cot+v4",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several integrated approaches: (1) Climate scenario analysis is used to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (2) RBC assesses the impact of climate-related risks across multiple Principal Risks in its existing Enterprise-Wide Stress Testing program to help ensure the bank is adequately capitalized against unexpected events resulting from climate change [S2]. (3) Climate-related risk is defined as the potential negative impacts of climate change on financial results, financial and operational resilience, reputation, business model or strategy, and is categorized into transition risk (risks related to adjustment towards a low-carbon economy) and physical risk (risks from increasing severity and frequency of climate-related extremes and events, longer-term gradual shifts of climate, and indirect effects such as public health implications) [S5]. (4) RBC continues to evolve its approach to environmental and social (E&S) risk, of which climate is a component, by leveraging existing risk management capabilities and building new capabilities including improved data analytics to identify, assess, measure, manage, monitor and report on potential E&S impacts on clients, portfolios and operations [S5]. (5) During fiscal 2025 stress testing exercises, RBC addressed climate risks with a focus on impacts on revenue, losses, net income, liquidity and capital projections [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0139",
+   "RBC_2025_AR#0145",
+   "RBC_2025_AR#0072",
+   "RBC_2025_AR#0141",
+   "RBC_2025_AR#0143",
+   "RBC_2025_AR#0147"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 181,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 96,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:cot+v4",
+  "answer": "TD's total provision for credit losses in Q2 2025 (for the three months ended April 30, 2025) was $1,341 million [S1]. This comprised provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0194",
+   "TD_2025_Q2#0057",
+   "TD_2025_Q2#0025",
+   "TD_2025_Q2#0027",
+   "TD_2025_Q2#0065"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:cot+v4",
+  "answer": "TD's average liquidity coverage ratio (LCR) for the quarter ended October 31, 2025 was 130% [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_MDA#0226",
+   "TD_2025_MDA#0190",
+   "TD_2025_MDA#0188",
+   "TD_2025_MDA#0225",
+   "TD_2025_MDA#0227"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:cot+v4",
+  "answer": "TD discusses technology and cybersecurity risk across multiple dimensions in its fiscal 2025 MD&A. The Bank states that it 'manages technology and cybersecurity risks to support day-to-day operations; and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data' [S1]. TD monitors, manages, and enhances its ability to mitigate these risks 'through enterprise-wide programs and the implementation of industry-accepted technology risk and cyber threat management practices to help support rapid detection and response' [S1].\n\nThe Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight regarding management of risks relating to technology and cybersecurity, including 'cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft' [S1]. The Bank's programs 'include resiliency planning and testing, as well as disciplined technology operations practices' [S1].\n\nTD acknowledges significant risks, noting that 'the Bank regularly reviews external events and assesses, and may enhance, its controls and response capabilities as it considers necessary to help mitigate against the risk of cyber-attacks or data security or other breaches in response to the evolving threat environment, but these activities may not mitigate all risks' [S4]. The Bank recognizes that 'the industry and the Bank are susceptible to experiencing potential financial and non-financial loss and/or harm from these attacks or breaches' [S4].\n\nThe Bank notes that 'the adoption of certain technologies, such as cloud computing, AI, machine learning, robotics, and process automation call for continued focus and investment to manage the Bank's risks' [S4]. TD acknowledges that 'the tactics, techniques, and procedures used by threat actors change frequently and risks can originate from a wide variety of sources that have also become increasingly sophisticated' [S4].\n\nFurthermore, TD states that 'the Bank's owned and operated applications, platforms, networks, processes, products, and services could be subject to failures or disruptions, or non-compliance with regulations as a result of human error, natural disasters, utility or infrastructure disruptions, pandemics or other public health emergencies, malicious insiders or service providers, cyber-attacks or other criminal or terrorist acts, which may impact the Bank's operations' [S4]. The Bank also notes that 'Cyber insurance providers continue to be concerned about systemic cyber risk, causing coverage term changes across the industry. This has the potential to impact the Bank's ability to mitigate risks through cyber insurance and may limit the amount of coverage available for financial losses' [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0003",
+   "TD_2025_MDA#0206",
+   "TD_2025_MDA#0172",
+   "TD_2025_MDA#0174",
+   "TD_2025_MDA#0010"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:cot+v4",
+  "answer": "BMO's total provision for credit losses in Q2 2025 was $1,054 million [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0059",
+   "BMO_2025_Q2#0032",
+   "BMO_2025_Q2#0034",
+   "BMO_2025_Q2#0070"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:cot+v4",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025 (the end of Q3 fiscal 2025).",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0044",
+   "BMO_2025_Q3#0087",
+   "BMO_2025_Q3#0036",
+   "BMO_2025_Q3#0001",
+   "BMO_2025_Q3#0039"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:cot+v4",
+  "answer": "BMO described its exposure to and management of climate risk in fiscal 2024 through a comprehensive framework addressing both physical and transition risks. Physical risks include increased frequency and intensity of weather-related events such as storms, floods, wildfires and heatwaves, as well as longer-term changes like temperature changes, rising sea levels and changes in soil productivity [S3]. Transition risks arise from the shift to a net zero carbon economy, including climate-related policy changes, technological changes, carbon-pricing mechanisms, and shifts in consumer preferences toward lower-carbon products and services [S3].\n\nBMO's management approach includes: (1) A qualitative Risk Appetite Statement that includes E&S risks related to climate change, with enhanced transition key risk metrics measuring credit risk exposure in carbon-related assets as a percentage of total credit risk exposure, and key risk indicators quantifying exposure to physical risks of flooding [S2]; (2) Integration of climate risk within the bank's Internal Capital Adequacy Assessment Process (ICAAP) through an integrated loss assessment approach [S1]; (3) A climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience, evaluating transition and physical risks through comprehensive climate-based scenarios across portfolios and risk types [S2]; (4) Sector-specific financing guidelines and an E&S Risk General Financing Guideline for wholesale lending that includes enhanced due diligence and E&S Risk Rating assessment tools [S2]; (5) A diversified lending portfolio to limit exposure to climate-sensitive industries, with sector-specific reviews across the lending portfolio [S2]; and (6) A four-pillar climate strategy focused on Commitment, Capabilities, Client partnership and commercialization, and Convening for climate action, with the climate ambition to be clients' lead partner in the transition to a net zero world [S8].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0170",
+   "BMO_2024_MDA#0168",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0158",
+   "BMO_2024_MDA#0067",
+   "BMO_2024_MDA#0172",
+   "BMO_2024_MDA#0169",
+   "BMO_2024_MDA#0167"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 189,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:cot+v4",
+  "answer": "Scotiabank's CET1 capital ratio was 13.2% as at April 30, 2025. [S2]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_Q2#0122",
+   "BNS_2025_Q2#0121",
+   "BNS_2025_Q2#0108",
+   "BNS_2025_Q2#0085",
+   "BNS_2025_Q2#0219",
+   "BNS_2025_Q2#0129",
+   "BNS_2025_Q2#0123",
+   "BNS_2025_Q2#0120",
+   "BNS_2025_Q2#0107"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_Q2",
+    "page": 53,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:cot+v4",
+  "answer": "Scotiabank reported a liquidity coverage ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0094",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0165",
+   "BNS_2024_MDA#0168",
+   "BNS_2024_MDA#0095",
+   "BNS_2024_MDA#0082"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:cot+v4",
+  "answer": "Scotiabank governs model risk through the Model Risk Management Framework (MRMF) [S2]. All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by the MRMF, which is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, with well-defined roles and responsibilities for key stakeholders across the lifecycle [S2]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues, and this score reflects the Bank's tolerance for model-related risk and is reported quarterly in the Enterprise Risk Management (ERM) Report [S2]. Model risk is managed as part of the broader Enterprise Risk Management Framework, which is aligned with the Bank's risk governance and oversight structure [S1, S5].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_MDA#0110",
+   "BNS_2025_MDA#0112",
+   "BNS_2025_MDA#0107",
+   "BNS_2025_MDA#0109",
+   "BNS_2025_MDA#0185"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 121,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 123,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:cot+v4",
+  "answer": "CIBC's provision for credit losses in the third quarter of 2025 was $559 million [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0016",
+   "CIBC_2025_Q3#0056",
+   "CIBC_2025_Q3#0042",
+   "CIBC_2025_Q3#0044"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:cot+v4",
+  "answer": "CIBC's average total VaR for fiscal 2025 was $11.4 million, up $0.4 million from the prior year average of $11.0 million.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_MDA#0009",
+   "CIBC_2025_FS#0075",
+   "CIBC_2025_MDA#0059",
+   "CIBC_2025_FS#0134",
+   "CIBC_2025_MDA#0112",
+   "CIBC_2025_AIF#0005",
+   "CIBC_2025_MDA#0010"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 133,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:cot+v4",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks [S2]. The Audit Committee has oversight of ESG disclosures [S2].\n\nAt the senior management level, the Chief Administrative Officer (CAO) is the executive lead for sustainability across the enterprise, and the Chief Risk Officer (CRO) has overall responsibility for enterprise risk management [S2]. The CRO chairs the Global Risk Committee (GRC), which provides a forum for discussion of risk appetite, profile, stress testing, and mitigation strategies, including environmental, climate-related, or social risks [S2].\n\nWithin the Risk Management function, the Global Environmental and Social Risk Management (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks, led by an Executive Vice-President who reports directly to the CRO [S1]. Environmental and social risks are assessed and mitigated according to reputation and legal risk policies, including through the Reputation Risk Management Framework and Global Reputation and Legal Risks Policy [S1].\n\nCIBC integrates climate risk into its risk management processes beginning with climate-related risk appetite, defined based on qualitative and quantitative considerations [S7]. The bank uses multiple tools including carbon risk scoring, heat maps, scenario analysis and financed emissions measurement to identify and assess climate-related risks at client, sector and portfolio levels [S7]. Environmental and social evaluations are integrated into credit risk assessment processes for all sectors, with escalation procedures for transactions with significant environmental and social risk [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_MDA#0069",
+   "CIBC_2025_MDA#0140",
+   "CIBC_2025_MDA#0137",
+   "CIBC_2025_MDA#0079"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 161,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "langchain:cot+v4",
+  "answer": "Royal Bank of Canada's total provision for credit losses in fiscal 2025 was $4,356 million [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0262",
+   "RBC_2025_AR#0252",
+   "RBC_2025_AR#0260",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0261",
+   "RBC_2025_AR#0263",
+   "RBC_2025_AR#0251"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 325,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": false,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "langchain:cot+v4",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%, which translates into a surplus of approximately $103 billion.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0003",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0074",
+   "RBC_2025_Q3#0076",
+   "RBC_2025_Q3#0001"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 37,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "langchain:cot+v4",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several approaches: (1) Integrating climate-related risk considerations into existing risk management practices [S2]. (2) Using climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (3) Assessing the impact of climate-related risks across multiple Principal Risks in the bank's existing Enterprise-Wide Stress Testing program to help ensure adequate capitalization against unexpected events resulting from climate change [S2]. (4) Defining climate-related risk as potential negative impacts of climate change on financial results, financial and operational resilience, reputation, business model or strategy, categorized into transition risk (risks related to adjustment towards a low-carbon economy) and physical risk (risks from increasing severity and frequency of climate-related extremes and events, longer-term gradual shifts of climate, and indirect effects such as public health implications) [S6]. (5) Evolving the approach to environmental and social risk by leveraging existing risk management capabilities and building new capabilities, including incorporating regulatory guidance, industry best practices and improved data analytics to identify, assess, measure, manage, monitor and report on potential E&S impacts on clients, portfolios and operations [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0071",
+   "RBC_2025_AR#0080",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0145",
+   "RBC_2025_AR#0141",
+   "RBC_2025_AR#0143",
+   "RBC_2025_AR#0147"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 181,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "langchain:cot+v4",
+  "answer": "TD's provision for credit losses in Q2 2025 was $1,341 million. This comprised $946 million in Stage 3 (impaired) provisions and $395 million in Stage 1 and Stage 2 (performing) provisions [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0065",
+   "TD_2025_Q2#0057",
+   "TD_2025_Q2#0153",
+   "TD_2025_Q2#0155",
+   "TD_2025_Q2#0025"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "langchain:cot+v4",
+  "answer": "TD's average liquidity coverage ratio for the quarter ended October 31, 2025 was 130%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_MDA#0190",
+   "TD_2025_MDA#0194",
+   "TD_2025_MDA#0226",
+   "TD_2025_MDA#0188",
+   "TD_2025_MDA#0191",
+   "TD_2025_MDA#0193"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "langchain:cot+v4",
+  "answer": "In its fiscal 2025 MD&A, TD discusses technology and cybersecurity risk as follows: The Bank regularly reviews external events and assesses and may enhance its controls and response capabilities to help mitigate against cyber-attacks or data security breaches, but these activities may not mitigate all risks. The industry and the Bank are susceptible to potential financial and non-financial loss from such attacks or breaches. TD notes that the adoption of certain technologies such as cloud computing, AI, machine learning, robotics, and process automation require continued focus and investment to manage risks. The Bank acknowledges it may not have anticipated or implemented effective measures against all cyber and technology-related risks, particularly because threat actors' tactics change frequently and risks originate from increasingly sophisticated sources. TD's owned and operated applications, platforms, networks, processes, products, and services could be subject to failures or disruptions, or non-compliance with regulations resulting from human error, natural disasters, utility or infrastructure disruptions, pandemics, malicious insiders or service providers, cyber-attacks, or other criminal or terrorist acts, which may impact operations and damage reputation, leading to financial loss. Additionally, cyber insurance providers' concerns about systemic cyber risk have caused coverage term changes across the industry, potentially impacting the Bank's ability to mitigate risks through cyber insurance and limiting available coverage for financial losses. TD notes that its investments in technology and cyber infrastructure, including its risk and control environment, may be inadequate to meet regulatory expectations, remain competitive, serve clients effectively, and avoid business disruptions or operational errors.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0000",
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0067",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0003",
+   "TD_2025_MDA#0010",
+   "TD_2025_MDA#0012",
+   "TD_2025_MDA#0001"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "langchain:cot+v4",
+  "answer": "BMO's total provision for credit losses in Q2 2025 was $1,054 million [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0059",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0032",
+   "BMO_2025_Q2#0034",
+   "BMO_2025_Q2#0057"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "langchain:cot+v4",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025 (the end of Q3 fiscal 2025).",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0062",
+   "BMO_2025_Q3#0087",
+   "BMO_2025_Q3#0040",
+   "BMO_2025_Q3#0036",
+   "BMO_2025_Q3#0039",
+   "BMO_2025_Q3#0001"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 19,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "langchain:cot+v4",
+  "answer": "BMO described its exposure to and management of climate risk in fiscal 2024 through several key approaches:\n\n**Risk Identification and Assessment:**\nBMO identified the channels through which climate risk manifests itself in credit, market, operational, liquidity and insurance risk [S1]. The bank developed an integrated loss assessment approach for incorporating climate risk within its Internal Capital Adequacy Assessment Process (ICAAP) [S1].\n\n**Risk Appetite and Metrics:**\nBMO developed a qualitative Risk Appetite Statement that includes E&S risks, including risks related to climate change [S4]. The bank enhanced a transition key risk metric with risk tolerance thresholds, which measures credit risk exposure in support of carbon-related assets as a percentage of total credit risk exposure [S4]. BMO also included a key risk indicator to quantify exposure to physical risks of flooding [S4].\n\n**Credit Risk Management:**\nClimate risk is addressed in BMO's Credit Risk Management Framework, including provisions for governance, enhanced due diligence and thresholds for escalations or exceptions [S4]. Sector-specific financing guidelines help identify and manage exposure to E&S risk in higher-risk sectors [S4]. The E&S Risk General Financing Guideline applies to wholesale lending transactions and includes direction on developing an understanding of the specific impacts of climate change on borrowers and their operations [S4]. BMO maintains a diversified lending portfolio to limit exposure to any one sector or geographic region vulnerable to climate-related risk and conducts sector-specific reviews across its lending portfolio to assess exposure to climate-sensitive industries [S4].\n\n**Scenario Analysis:**\nBMO is developing its climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience to climate-related risks, in line with Task Force on Climate-related Financial Disclosures (TCFD) recommendations [S4]. This program evaluates transition risks and physical risks through comprehensive climate-based scenarios across portfolios and risk types [S4].\n\n**Emissions Reporting:**\nBMO's reporting on climate-related metrics includes discussion of Scope 1 and 2 greenhouse gas emissions calculated using the GHG Protocol, and Scope 3 emissions calculated using the Partnership for Carbon Accounting Financials (PCAF) [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0170",
+   "BMO_2024_MDA#0159",
+   "BMO_2024_MDA#0172",
+   "BMO_2024_MDA#0055"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "langchain:cot+v4",
+  "answer": "Scotiabank's CET1 capital ratio was 13.2% as at April 30, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_Q2#0122",
+   "BNS_2025_Q2#0186",
+   "BNS_2025_Q2#0086",
+   "BNS_2025_Q2#0187",
+   "BNS_2025_Q2#0121",
+   "BNS_2025_Q2#0123",
+   "BNS_2025_Q2#0085"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_Q2",
+    "page": 53,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "langchain:cot+v4",
+  "answer": "Scotiabank reported a liquidity coverage ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S5].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0040",
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0030",
+   "BNS_2024_MDA#0165",
+   "BNS_2024_MDA#0039",
+   "BNS_2024_MDA#0082",
+   "BNS_2024_MDA#0041",
+   "BNS_2024_MDA#0168"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "langchain:cot+v4",
+  "answer": "Scotiabank governs model risk through the Model Risk Management Framework (MRMF) [S4]. All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by this framework [S4]. The MRMF is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, with well-defined roles and responsibilities for key stakeholders across the lifecycle [S4]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues [S4]. This score reflects the Bank's tolerance for model-related risk and is reported quarterly in the Enterprise Risk Management (ERM) Report [S4].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_AIF#0008",
+   "BNS_2025_MDA#0077",
+   "BNS_2025_MDA#0182",
+   "BNS_2025_FS#0160",
+   "BNS_2025_FS#0162"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "langchain:cot+v4",
+  "answer": "CIBC's provision for credit losses in the third quarter of 2025 was $559 million, up $76 million from the same quarter last year. Provision for credit losses on performing loans was comparable with the same quarter last year, with an unfavourable change in our economic outlook partially offset by favourable credit migration in the current quarter. Provision for credit losses on impaired loans was up due to higher provisions in Canadian Personal and Business Banking, and U.S. Commercial Banking and Wealth Management. [S13]",
+  "abstained": false,
+  "confidence": "low",
+  "retrieved": [
+   "CIBC_2025_Q3#0021",
+   "CIBC_2025_Q3#0057",
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0002",
+   "CIBC_2025_Q3#0020",
+   "CIBC_2025_Q3#0022",
+   "CIBC_2025_Q3#0056",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0113",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0016",
+   "CIBC_2025_Q3#0054",
+   "CIBC_2025_Q3#0000"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": [
+   "13"
+  ]
+ },
+ {
+  "id": "Q14",
+  "config": "langchain:cot+v4",
+  "answer": "CIBC's average total VaR for fiscal 2025 was $11.4 million, up $0.4 million from the prior year average of $11.0 million.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_FS#0075",
+   "CIBC_2025_FS#0134",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0007",
+   "CIBC_2025_MDA#0112",
+   "CIBC_2025_AIF#0005",
+   "CIBC_2025_FS#0074"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 135,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 133,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "langchain:cot+v4",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of CIBC's ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks. The Audit Committee oversees the integrity and reliability of ESG disclosures [S2].\n\nAt the senior management level, the Group Executive Leadership Team (ELT) is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability across the enterprise. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives [S2].\n\nWithin the Risk Management function, the Global Environmental and Social (GOERM) group provides independent oversight of the measurement, monitoring and control of environmental risks. The Executive Vice-President of GOERM has direct accountability to the Chief Risk Officer (CRO) for environmental risk oversight [S3]. The Environmental Risk Management team works closely with the Enterprise Sustainability team to ensure environmental and social risks are integrated into sustainability priorities and banking services [S3].\n\nEnvironmental and social risks are assessed and mitigated as components of reputation and legal risks according to the Reputation Risk Management Framework and Global Reputation and Legal Risks Policy [S3]. Environmental and social evaluations are integrated into credit risk assessment processes across all sectors, with escalation procedures in place for transactions with significant environmental and social risk [S3]. Climate risk is integrated into CIBC's risk management processes beginning with climate-related risk appetite, with tolerance levels implemented into Risk Appetite Statements regionally and enterprise-wide [S3].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0083",
+   "CIBC_2025_MDA#0079",
+   "CIBC_2025_MDA#0081",
+   "CIBC_2025_MDA#0137"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q01",
+  "config": "native:cot+v5",
+  "answer": "RBC's total provision for credit losses in fiscal 2025 was $4,362 million [S7].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0179",
+   "RBC_2025_AR#0000",
+   "RBC_2025_AR#0019",
+   "RBC_2025_AR#0177",
+   "RBC_2025_AR#0253",
+   "RBC_2025_AR#0164",
+   "RBC_2025_AR#0178",
+   "RBC_2025_AR#0018",
+   "RBC_2025_AR#0020"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 223,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q02",
+  "config": "native:cot+v5",
+  "answer": "RBC's average liquidity coverage ratio (LCR) for the third quarter of fiscal 2025 (quarter ended July 31, 2025) was 129%, which translates into a surplus of approximately $103 billion.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_Q3#0075",
+   "RBC_2025_Q3#0000",
+   "RBC_2025_Q3#0002",
+   "RBC_2025_Q3#0073",
+   "RBC_2025_Q3#0003",
+   "RBC_2025_Q3#0074",
+   "RBC_2025_Q3#0076",
+   "RBC_2025_Q3#0001"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 38,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_Q3",
+    "page": 37,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q03",
+  "config": "native:cot+v5",
+  "answer": "According to RBC's fiscal 2025 annual report, the bank manages climate-related risk through several key approaches: (1) Integrating climate-related risk considerations into existing risk management practices [S2]. (2) Using climate scenario analysis to inform future strategic planning, evolve risk management strategies, and meet regulatory and stakeholder expectations [S2]. (3) Assessing the impact of climate-related risks across multiple Principal Risks in the Enterprise-Wide Stress Testing program to help ensure the bank is adequately capitalized against unexpected events resulting from climate change [S2]. (4) Evolving their approach to E&S risk by leveraging existing risk management capabilities and building new capabilities, including incorporating regulatory guidance, industry best practices and improved data analytics to identify, assess, measure, manage, monitor and report on potential E&S impacts on clients, portfolios and operations [S9]. (5) Recognizing that climate-related risk is categorized into transition risk (risks related to adjustment towards a low-carbon economy) and physical risk (risks from increasing severity and frequency of climate-related extremes and events, longer-term gradual shifts of the climate, and indirect effects such as public health implications) [S9].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "RBC_2025_AR#0142",
+   "RBC_2025_AR#0146",
+   "RBC_2025_AR#0136",
+   "RBC_2025_AR#0069",
+   "RBC_2025_AR#0073",
+   "RBC_2025_AR#0072",
+   "RBC_2025_AR#0141",
+   "RBC_2025_AR#0143",
+   "RBC_2025_AR#0145"
+  ],
+  "cited": [
+   {
+    "filing": "RBC_2025_AR",
+    "page": 183,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "RBC_2025_AR",
+    "page": 181,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q04",
+  "config": "native:cot+v5",
+  "answer": "TD's provision for credit losses in Q2 2025 was $1,341 million [S1]. This comprised provision for credit losses - Stage 3 (impaired) of $946 million and provision for credit losses - Stage 1 and Stage 2 (performing) of $395 million [S1].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_Q2#0026",
+   "TD_2025_Q2#0066",
+   "TD_2025_Q2#0154",
+   "TD_2025_Q2#0048",
+   "TD_2025_Q2#0194",
+   "TD_2025_Q2#0057",
+   "TD_2025_Q2#0025",
+   "TD_2025_Q2#0027",
+   "TD_2025_Q2#0065"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_Q2",
+    "page": 15,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q05",
+  "config": "native:cot+v5",
+  "answer": "TD's average liquidity coverage ratio for the quarter ended October 31, 2025 was 130%.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0189",
+   "TD_2025_MDA#0226",
+   "TD_2025_MDA#0000",
+   "TD_2025_MDA#0188",
+   "TD_2025_MDA#0190",
+   "TD_2025_MDA#0225"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 92,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q06",
+  "config": "native:cot+v5",
+  "answer": "TD describes technology and cybersecurity risk as follows: The Bank manages technology and cybersecurity risks to support day-to-day operations and protect against unauthorized access to the Bank's technology, infrastructure, systems, information, and data [S4]. The Bank monitors, manages, and continues to enhance its ability to mitigate these risks through enterprise-wide programs and the implementation of industry-accepted technology risk and cyber threat management practices to help support rapid detection and response [S4]. The Bank's Platforms and Technology Risk Oversight Committee provides senior executive oversight regarding management of risks relating to technology and cybersecurity, including cyber threats, cyber resiliency, cyber terrorism/activism, cyber fraud, cyber extortion, identity theft and data theft [S4].\n\nRegarding specific risks, TD notes that the Bank regularly reviews external events and assesses, and may enhance, its controls and response capabilities to help mitigate against the risk of cyber-attacks or data security or other breaches, but these activities may not mitigate all risks [S5]. The industry and the Bank are susceptible to experiencing potential financial and non-financial loss and/or harm from such attacks or breaches [S5]. The adoption of certain technologies, such as cloud computing, AI, machine learning, robotics, and process automation call for continued focus and investment to manage the Bank's risks [S5]. The Bank's owned and operated applications, platforms, networks, processes, products, and services could be subject to failures or disruptions, or non-compliance with regulations as a result of human error, natural disasters, utility or infrastructure disruptions, pandemics or other public health emergencies, malicious insiders or service providers, cyber-attacks or other criminal or terrorist acts [S5]. Cyber insurance providers continue to be concerned about systemic cyber risk, causing coverage term changes across the industry, which has the potential to impact the Bank's ability to mitigate risks through cyber insurance [S5]. The Bank's investments in its technology and cyber infrastructure, including the investment in its risk and control environment, may be inadequate to meet regulatory expectations, remain competitive, serve clients effectively, and avoid business disruptions or operational errors [S5].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "TD_2025_MDA#0128",
+   "TD_2025_MDA#0011",
+   "TD_2025_MDA#0179",
+   "TD_2025_MDA#0173",
+   "TD_2025_MDA#0126",
+   "TD_2025_MDA#0003",
+   "TD_2025_MDA#0127",
+   "TD_2025_MDA#0129",
+   "TD_2025_MDA#0010"
+  ],
+  "cited": [
+   {
+    "filing": "TD_2025_MDA",
+    "page": 84,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "TD_2025_MDA",
+    "page": 61,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q07",
+  "config": "native:cot+v5",
+  "answer": "BMO's total provision for credit losses in Q2 2025 was $1,054 million. [S1] This represented 63 basis points as a percentage of average net loans and acceptances, compared with 44 basis points in the prior year (Q2 2024). [S1]",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q2#0033",
+   "BMO_2025_Q2#0071",
+   "BMO_2025_Q2#0031",
+   "BMO_2025_Q2#0060",
+   "BMO_2025_Q2#0056",
+   "BMO_2025_Q2#0004",
+   "BMO_2025_Q2#0032",
+   "BMO_2025_Q2#0034",
+   "BMO_2025_Q2#0070"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q2",
+    "page": 14,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q08",
+  "config": "native:cot+v5",
+  "answer": "BMO's Common Equity Tier 1 (CET1) Ratio was 13.5% as at July 31, 2025 (the end of Q3 fiscal 2025).",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2025_Q3#0037",
+   "BMO_2025_Q3#0000",
+   "BMO_2025_Q3#0082",
+   "BMO_2025_Q3#0043",
+   "BMO_2025_Q3#0038",
+   "BMO_2025_Q3#0062",
+   "BMO_2025_Q3#0036",
+   "BMO_2025_Q3#0001",
+   "BMO_2025_Q3#0081"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 17,
+    "period": "Q3 fiscal 2025"
+   },
+   {
+    "filing": "BMO_2025_Q3",
+    "page": 1,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q09",
+  "config": "native:cot+v5",
+  "answer": "BMO described its exposure to and management of climate risk in fiscal 2024 through several integrated approaches: [S2] The bank identified channels through which climate risk manifests itself in credit, market, operational, liquidity and insurance risk, and developed an integrated loss assessment approach for incorporating climate risk within the bank's Internal Capital Adequacy Assessment Process (ICAAP). [S5] BMO developed a qualitative Risk Appetite Statement that includes climate change risks and enhanced a transition key risk metric with risk tolerance thresholds measuring credit risk exposure in support of carbon-related assets as a percentage of total credit risk exposure. The bank also included a key risk indicator to quantify BMO's exposure to physical risks of flooding. [S5] Climate risk is addressed in BMO's Credit Risk Management Framework through enhanced due diligence and thresholds for escalations, with sector-specific financing guidelines helping identify and manage E&S risk in higher-risk sectors. [S5] BMO maintains a diversified lending portfolio to limit exposure to climate-sensitive sectors and conducts sector-specific reviews across its lending portfolio to assess exposure to climate-sensitive industries. [S5] The bank is developing a climate scenario analysis program to explore climate-specific vulnerabilities and enhance resilience to climate-related risks, leveraging existing risk capabilities combined with climate-specific expertise, tools and data to evaluate transition risks and physical risks through comprehensive climate-based scenarios across portfolios and risk types. [S2] BMO reports on climate-related metrics using the GHG Protocol for Scope 1 and 2 emissions and the Partnership for Carbon Accounting Financials (PCAF) for Scope 3 emissions.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BMO_2024_MDA#0067",
+   "BMO_2024_MDA#0171",
+   "BMO_2024_MDA#0056",
+   "BMO_2024_MDA#0005",
+   "BMO_2024_MDA#0170",
+   "BMO_2024_MDA#0091",
+   "BMO_2024_MDA#0068",
+   "BMO_2024_MDA#0172",
+   "BMO_2024_MDA#0055"
+  ],
+  "cited": [
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 193,
+    "period": "fiscal 2024"
+   },
+   {
+    "filing": "BMO_2024_MDA",
+    "page": 191,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q10",
+  "config": "native:cot+v5",
+  "answer": "Scotiabank's CET1 capital ratio was 13.2% as at April 30, 2025.",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_Q2#0122",
+   "BNS_2025_Q2#0121",
+   "BNS_2025_Q2#0085",
+   "BNS_2025_Q2#0108",
+   "BNS_2025_Q2#0219",
+   "BNS_2025_Q2#0123",
+   "BNS_2025_Q2#0120",
+   "BNS_2025_Q2#0084"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_Q2",
+    "page": 53,
+    "period": "Q2 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q11",
+  "config": "native:cot+v5",
+  "answer": "Scotiabank reported a liquidity coverage ratio (LCR) of 131% for the quarter ended October 31, 2024 (fiscal 2024) [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2024_MDA#0167",
+   "BNS_2024_MDA#0094",
+   "BNS_2024_MDA#0083",
+   "BNS_2024_MDA#0209",
+   "BNS_2024_MDA#0026",
+   "BNS_2024_MDA#0165",
+   "BNS_2024_MDA#0168",
+   "BNS_2024_MDA#0095",
+   "BNS_2024_MDA#0082"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2024_MDA",
+    "page": 171,
+    "period": "fiscal 2024"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q12",
+  "config": "native:cot+v5",
+  "answer": "Scotiabank governs model risk through the Model Risk Management Framework (MRMF). All models that meet the Bank's definition\u2014including those developed internally or sourced from vendors\u2014are governed by the MRMF, which is supported by a suite of policies, standards, and guidelines that ensure consistent and effective model risk management across the organization, including well-defined roles and responsibilities for key stakeholders across the lifecycle [S2]. The Bank's model risk appetite is expressed through the Enterprise Model Risk Score, which is based on aggregated indicators such as persistent performance breaches, policy exceptions, and material issues. This score reflects the Bank's tolerance for model-related risk and is reported quarterly in the Enterprise Risk Management (ERM) Report [S2].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "BNS_2025_MDA#0108",
+   "BNS_2025_MDA#0184",
+   "BNS_2025_MDA#0183",
+   "BNS_2025_FS#0161",
+   "BNS_2025_MDA#0110",
+   "BNS_2025_MDA#0112",
+   "BNS_2025_MDA#0107",
+   "BNS_2025_MDA#0109",
+   "BNS_2025_MDA#0185"
+  ],
+  "cited": [
+   {
+    "filing": "BNS_2025_MDA",
+    "page": 197,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q13",
+  "config": "native:cot+v5",
+  "answer": "CIBC's provision for credit losses in the third quarter of 2025 was $559 million [S6].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_Q3#0055",
+   "CIBC_2025_Q3#0041",
+   "CIBC_2025_Q3#0045",
+   "CIBC_2025_Q3#0051",
+   "CIBC_2025_Q3#0058",
+   "CIBC_2025_Q3#0016",
+   "CIBC_2025_Q3#0056",
+   "CIBC_2025_Q3#0042",
+   "CIBC_2025_Q3#0044"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_Q3",
+    "page": 8,
+    "period": "Q3 fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q14",
+  "config": "native:cot+v5",
+  "answer": "CIBC's average total VaR for fiscal 2025 was $11.4 million [S7].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0113",
+   "CIBC_2025_AIF#0004",
+   "CIBC_2025_MDA#0009",
+   "CIBC_2025_FS#0075",
+   "CIBC_2025_MDA#0059",
+   "CIBC_2025_FS#0134",
+   "CIBC_2025_MDA#0112",
+   "CIBC_2025_AIF#0005",
+   "CIBC_2025_MDA#0010"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 133,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": true,
+  "cites_truth_page": false,
+  "unsupported_figures": []
+ },
+ {
+  "id": "Q15",
+  "config": "native:cot+v5",
+  "answer": "CIBC oversees environmental and climate risk in fiscal 2025 through a multi-layered governance structure. At the Board level, the Corporate Governance Committee (CGC) leads oversight of ESG strategy (which includes climate strategy) and governance, while the Risk Management Committee (RMC) reviews and approves key frameworks, policies and limits to identify and control principal risks, including climate-related risks. The Audit Committee oversees the integrity and reliability of ESG disclosures [S1]. At the senior management level, the Group Executive Leadership Team (Group ELT) is accountable for progress on CIBC's sustainability agenda, with the Senior Executive Vice-President and Chief Administrative Officer (CAO) serving as the executive lead for sustainability. The CAO chairs the Senior Executive ESG Council, which facilitates bank-wide coordination on strategic sustainability initiatives [S1]. The Chief Risk Officer (CRO) has overall responsibility for enterprise risk management and chairs the Global Risk Committee (GRC), which discusses risk appetite, profile, stress testing, and mitigation strategies, including environmental and climate-related risks [S1]. The Enterprise Sustainability team, reporting to the CAO, works with the Environmental Risk Management team within GOERM to advance CIBC's sustainability agenda [S1]. The Environmental Risk Management team, led by the Executive Vice-President of GOERM, provides independent oversight of the identification, measurement, monitoring, and management of climate-related risks and reports directly to the CRO [S1, S2]. Climate risk is integrated into CIBC's risk management processes through a climate-related risk appetite defined on qualitative and quantitative considerations, with tolerance levels implemented into Risk Appetite Statements regionally and enterprise-wide [S8]. CIBC uses risk management tools including carbon risk scoring, heat maps, scenario analysis, and financed emissions measurement to identify and assess climate-related risks at client, sector and portfolio levels [S8].",
+  "abstained": false,
+  "confidence": "high",
+  "retrieved": [
+   "CIBC_2025_MDA#0138",
+   "CIBC_2025_MDA#0139",
+   "CIBC_2025_MDA#0080",
+   "CIBC_2025_MDA#0082",
+   "CIBC_2025_AIF#0002",
+   "CIBC_2025_MDA#0069",
+   "CIBC_2025_MDA#0137",
+   "CIBC_2025_MDA#0140",
+   "CIBC_2025_MDA#0079"
+  ],
+  "cited": [
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 159,
+    "period": "fiscal 2025"
+   },
+   {
+    "filing": "CIBC_2025_MDA",
+    "page": 161,
+    "period": "fiscal 2025"
+   }
+  ],
+  "key_found": null,
+  "cites_truth_page": true,
+  "unsupported_figures": []
+ }
+]

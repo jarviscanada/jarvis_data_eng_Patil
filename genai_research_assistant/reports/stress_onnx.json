@@ -1,0 +1,9 @@
+{
+ "requests": 1500,
+ "threads": 4,
+ "completed": 1500,
+ "python_errors": [],
+ "seconds": 3876,
+ "engine": "onnxruntime",
+ "torch_loaded": false
+}

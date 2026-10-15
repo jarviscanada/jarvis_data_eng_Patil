@@ -1,0 +1,1055 @@
+{
+ "method": "Each answer was read against its hand located truth (reports/step3_questions.json) and against the text of the chunks it cites. Verdicts: correct, partly correct, wrong. citations_accurate: the cited passage supports what the answer says. The verdicts are written here as data with a note for every answer that is not plainly correct, so the review itself can be checked. Re-run after a new configuration is reviewed. ",
+ "reviews": [
+  {
+   "id": "Q01",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "native:basic",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the question names the quarter by its end date (April 30, 2025); the scope rule did not read dates, so only annual filings were searched. Fixed (dates map to quarters) and measured in the +datefix run."
+  },
+  {
+   "id": "Q11",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8"
+  },
+  {
+   "id": "Q14",
+   "config": "native:basic",
+   "verdict": "partly correct",
+   "citations_accurate": true,
+   "note": "states the +$0.4 million change correctly but says the level is not disclosed: the retrieved chunk holds the explanation, not the VaR table ($11.4 million) in the neighbouring chunk. A retrieval miss, not a fabrication."
+  },
+  {
+   "id": "Q15",
+   "config": "native:basic",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "native:fewshot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the question names the quarter by its end date (April 30, 2025); the scope rule did not read dates, so only annual filings were searched. Fixed (dates map to quarters) and measured in the +datefix run."
+  },
+  {
+   "id": "Q11",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8"
+  },
+  {
+   "id": "Q14",
+   "config": "native:fewshot",
+   "verdict": "partly correct",
+   "citations_accurate": true,
+   "note": "states the +$0.4 million change correctly but says the level is not disclosed: the retrieved chunk holds the explanation, not the VaR table ($11.4 million) in the neighbouring chunk. A retrieval miss, not a fabrication."
+  },
+  {
+   "id": "Q15",
+   "config": "native:fewshot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "native:cot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the question names the quarter by its end date (April 30, 2025); the scope rule did not read dates, so only annual filings were searched. Fixed (dates map to quarters) and measured in the +datefix run."
+  },
+  {
+   "id": "Q11",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8"
+  },
+  {
+   "id": "Q14",
+   "config": "native:cot",
+   "verdict": "partly correct",
+   "citations_accurate": true,
+   "note": "states the +$0.4 million change correctly but says the level is not disclosed: the retrieved chunk holds the explanation, not the VaR table ($11.4 million) in the neighbouring chunk. A retrieval miss, not a fabrication."
+  },
+  {
+   "id": "Q15",
+   "config": "native:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "langchain:cot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the question names the quarter by its end date (April 30, 2025); the scope rule did not read dates, so only annual filings were searched. Fixed (dates map to quarters) and measured in the +datefix run."
+  },
+  {
+   "id": "Q11",
+   "config": "langchain:cot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q12",
+   "config": "langchain:cot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q13",
+   "config": "langchain:cot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q14",
+   "config": "langchain:cot",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q15",
+   "config": "langchain:cot",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.2% as at April 30, 2025 (after the date fix), cited to the CET1 sentence on p53"
+  },
+  {
+   "id": "Q11",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8"
+  },
+  {
+   "id": "Q14",
+   "config": "native:cot+datefix",
+   "verdict": "partly correct",
+   "citations_accurate": true,
+   "note": "states the +$0.4 million change correctly but says the level is not disclosed: the retrieved chunk holds the explanation, not the VaR table ($11.4 million) in the neighbouring chunk. A retrieval miss, not a fabrication."
+  },
+  {
+   "id": "Q15",
+   "config": "native:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "langchain:cot+datefix",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined although the date now selects Q2 2025: it retrieved the paragraph after the CET1 sentence (p53 to 54), not the sentence itself; vector only retrieval"
+  },
+  {
+   "id": "Q11",
+   "config": "langchain:cot+datefix",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q12",
+   "config": "langchain:cot+datefix",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q13",
+   "config": "langchain:cot+datefix",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q14",
+   "config": "langchain:cot+datefix",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "declined: the LangChain chain searches by vector only (no BM25 keyword search, no query rewrite, no retry) and missed the passage the native build finds; repeated on a healthy store in the +datefix run (first suspected to be store damage; that was ruled out)."
+  },
+  {
+   "id": "Q15",
+   "config": "langchain:cot+datefix",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13); the model wrote its JSON with unquoted passage ids, so the raw JSON was shown (parser made tolerant after)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth; the model wrote its JSON with unquoted passage ids, so the raw JSON was shown (parser made tolerant after)"
+  },
+  {
+   "id": "Q07",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": false,
+   "note": "content matches the truth (physical and transition risk, effects on operations and counterparties) but no passage id could be read; the model wrote its JSON with unquoted passage ids, so the raw JSON was shown (parser made tolerant after)"
+  },
+  {
+   "id": "Q10",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.2% as at April 30, 2025 (after the date fix), cited to the CET1 sentence on p53"
+  },
+  {
+   "id": "Q11",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171; the model wrote its JSON with unquoted passage ids, so the raw JSON was shown (parser made tolerant after)"
+  },
+  {
+   "id": "Q12",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197; the model wrote its JSON with unquoted passage ids, so the raw JSON was shown (parser made tolerant after)"
+  },
+  {
+   "id": "Q13",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8; the model wrote its JSON with unquoted passage ids, so the raw JSON was shown (parser made tolerant after)"
+  },
+  {
+   "id": "Q14",
+   "config": "native:cot+openai",
+   "verdict": "partly correct",
+   "citations_accurate": true,
+   "note": "states the +$0.4 million change correctly but says the level is not disclosed: the retrieved chunk holds the explanation, not the VaR table ($11.4 million) in the neighbouring chunk. A retrieval miss, not a fabrication."
+  },
+  {
+   "id": "Q15",
+   "config": "native:cot+openai",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.2% as at April 30, 2025 (after the date fix), cited to the CET1 sentence on p53"
+  },
+  {
+   "id": "Q11",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8"
+  },
+  {
+   "id": "Q14",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$11.4 million (and +$0.4 million from $11.0 million), cited to the VaR table chunk on pp133 to 135, which the neighbouring chunk rule brought in"
+  },
+  {
+   "id": "Q15",
+   "config": "native:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "langchain:cot+v4",
+   "verdict": "wrong",
+   "citations_accurate": false,
+   "note": "quoted PCL on loans ($4,356 million, credit risk note p325) as the total PCL ($4,362 million): a real figure from the right table family but the wrong line; the figure check cannot catch this (the number is in the passage)"
+  },
+  {
+   "id": "Q02",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.2% as at April 30, 2025 (after the date fix), cited to the CET1 sentence on p53"
+  },
+  {
+   "id": "Q11",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8; the citation [S13] was flagged as a figure (checker fixed)"
+  },
+  {
+   "id": "Q14",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$11.4 million (and +$0.4 million from $11.0 million), cited to the VaR table chunk on pp133 to 135, which the neighbouring chunk rule brought in"
+  },
+  {
+   "id": "Q15",
+   "config": "langchain:cot+v4",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  },
+  {
+   "id": "Q01",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$4,362 million, cited to the PCL table on p223 (the same table also appears on p13)"
+  },
+  {
+   "id": "Q02",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "129%, average for the quarter ended July 31, 2025, p38"
+  },
+  {
+   "id": "Q03",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "integration into risk management, scenario analysis, enterprise stress testing, transition and physical risk; grounded in pp177 to 183"
+  },
+  {
+   "id": "Q04",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,341 million with the Stage 3 and Stage 1 and 2 split, p15"
+  },
+  {
+   "id": "Q05",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "130% for the quarter ended October 31, 2025, p92"
+  },
+  {
+   "id": "Q06",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "technology and cyber risk governance (Platforms and Technology Risk Oversight Committee, enterprise programs) from p84; a valid passage, different from the risk trend passage on p60 recorded as truth"
+  },
+  {
+   "id": "Q07",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$1,054 million ($765 million impaired, $289 million performing); the chunk starting on p14 holds the figure"
+  },
+  {
+   "id": "Q08",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.5% as at July 31, 2025; the cited chunk runs from p17 to p18 where the sentence is"
+  },
+  {
+   "id": "Q09",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "physical and transition risk, channels into credit, market, operational and liquidity risk, risk appetite and sector reviews; pp189 to 193"
+  },
+  {
+   "id": "Q10",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "13.2% as at April 30, 2025 (after the date fix), cited to the CET1 sentence on p53"
+  },
+  {
+   "id": "Q11",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "131% for the quarter ended October 31, 2024 (136% a year earlier), p171"
+  },
+  {
+   "id": "Q12",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Model Risk Management Framework over internal and vendor models, policies and standards, Enterprise Model Risk Score; pp133 and 197"
+  },
+  {
+   "id": "Q13",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$559 million, up $76 million year over year, p8"
+  },
+  {
+   "id": "Q14",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "$11.4 million (and +$0.4 million from $11.0 million), cited to the VaR table chunk on pp133 to 135, which the neighbouring chunk rule brought in"
+  },
+  {
+   "id": "Q15",
+   "config": "native:cot+v5",
+   "verdict": "correct",
+   "citations_accurate": true,
+   "note": "Board committees (CGC, RMC, Audit), Group ELT, CAO as sustainability lead; p159"
+  }
+ ]
+}
