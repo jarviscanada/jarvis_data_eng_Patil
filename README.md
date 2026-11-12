@@ -63,6 +63,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](htt
 **Conestoga College of Technology (Sept 2024)**, Diploma, Big Data Solutions Architecture
 
 **Dr. D. Y. Patil University (Jul 2023)**, Bachelor of Technology, Data Science and Bioinformatics
+
 - GPA 4.0, with A+ standing across Data Science and Bioinformatics coursework
 - Lead author, peer-reviewed publication: Biological Network Analysis & Protein Kinase Inhibition in Breast Cancer
 
