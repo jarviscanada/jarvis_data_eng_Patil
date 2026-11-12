@@ -145,15 +145,15 @@ professional_experience:
 
 # List of education
 education:
-  - school_name: "York University"
+  - school_name: "York University School of Continuing Studies"
     duration: "Sept 2025"
-    degree: "Diploma"
+    degree: "Post Graduate Certificate"
     department: "Cloud Operations"
     awards_achievements:
 
   - school_name: "Conestoga College of Technology"
     duration: "Sept 2024"
-    degree: "Diploma"
+    degree: "Post Graduate Certificate"
     department: "Big Data Solutions Architecture"
     awards_achievements:
 

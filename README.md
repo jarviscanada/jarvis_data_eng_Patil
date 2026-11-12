@@ -58,9 +58,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](htt
 
 
 ## Education
-**York University (Sept 2025)**, Diploma, Cloud Operations
+**York University School of Continuing Studies (Sept 2025)**, Post Graduate Certificate, Cloud Operations
 
-**Conestoga College of Technology (Sept 2024)**, Diploma, Big Data Solutions Architecture
+**Conestoga College of Technology (Sept 2024)**, Post Graduate Certificate, Big Data Solutions Architecture
 
 **Dr. D. Y. Patil University (Jul 2023)**, Bachelor of Technology, Data Science and Bioinformatics
 
