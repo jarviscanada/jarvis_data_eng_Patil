@@ -68,6 +68,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Patil](htt
 
 
 ## Miscellaneous
+- [Databricks Certified Machine Learning Professional](https://credentials.databricks.com/81bafb2f-fd77-4218-9e61-0cabf40f80c8)
+- [Databricks Certified Generative AI Engineer Associate](https://credentials.databricks.com/4fd0b744-dc70-47a9-a926-a58d3f52f40d)
+- [Databricks Certified Data Engineer Associate](https://credentials.databricks.com/506f568a-80dc-45ee-8b60-ad0364fa9e90)
 - AWS Certified Solutions Architect - Associate
 - AWS Certified Cloud Practitioner
 - Author of agentnorm and freeboard, 2 open-source Python packages published on PyPI

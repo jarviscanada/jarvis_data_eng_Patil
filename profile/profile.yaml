@@ -169,6 +169,9 @@ education:
 others:
   - title: "Certifications"
     bullets:
+      - "Databricks Certified Machine Learning Professional"
+      - "Databricks Certified Generative AI Engineer Associate"
+      - "Databricks Certified Data Engineer Associate"
       - "AWS Certified Solutions Architect - Associate"
       - "AWS Certified Cloud Practitioner"
       - "Microsoft Certified: Fabric Data Engineer Associate (DP-700)"
